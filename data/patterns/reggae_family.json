@@ -1,0 +1,1898 @@
+{
+ "family": "reggae_family",
+ "name": "Reggae, dub y derivados",
+ "patterns": [
+  {
+   "id": "RGG.3.1/one_drop",
+   "name": "One drop",
+   "taxonomy": [
+    "RGG.3.1",
+    "ACE.2.2",
+    "MIC.1.1",
+    "GRV.5"
+   ],
+   "origin": {
+    "tradition": "Jamaica, roots reggae",
+    "genre": [
+     "roots reggae"
+    ],
+    "context": "batería del roots; Bob Marley and the Wailers",
+    "attributions": [
+     "Carlton Barrett",
+     "Winston Grennan"
+    ],
+    "sources": [
+     "Wikipedia: One drop rhythm",
+     "MusicRadar",
+     "Bradford College"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "rim",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "swing": 1.5
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "roots",
+    "dub",
+    "lovers rock"
+   ],
+   "bpm_range": [
+    60,
+    90
+   ],
+   "corpus": [
+    "80_Kick + 80_Snare (Echoes In The Smoke, 80 BPM)",
+    "64_Kick + 64_Snare en doble tiempo (Dub Front)"
+   ],
+   "params": {
+    "drop_beat": 1,
+    "half_time": true
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "hat_triplet_fill"
+   }
+  },
+  {
+   "id": "RGG.3.2a/rockers_pedagogico",
+   "name": "Rockers (acepción pedagógica)",
+   "taxonomy": [
+    "RGG.3.2",
+    "GRV.6"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae"
+    ],
+    "context": "material pedagógico: one drop con bombo añadido en el 1",
+    "sources": [
+     "Soundbrenner",
+     "zZounds Blog"
+    ]
+   },
+   "status": "I",
+   "verify": true,
+   "verify_notes": "Acepción de divulgación (calidad B); difiere de la histórica de Channel One.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      8
+     ]
+    },
+    {
+     "role": "rim",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "swing": 1.5
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "rockers"
+   ],
+   "bpm_range": [
+    60,
+    90
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.3.2b/rockers_channel_one",
+   "name": "Rockers (Channel One, 1976)",
+   "taxonomy": [
+    "RGG.3.2",
+    "RGG.3.3"
+   ],
+   "origin": {
+    "tradition": "Jamaica, Channel One",
+    "genre": [
+     "rockers"
+    ],
+    "context": "Sly Dunbar y The Revolutionaries; reemplazó a los flyers",
+    "attributions": [
+     "Sly Dunbar"
+    ],
+    "sources": [
+     "Jamaica Gleaner 2026",
+     "Reggae.be"
+    ]
+   },
+   "status": "H",
+   "verify": true,
+   "missing_data": true,
+   "verify_notes": "Posiciones de los golpes dobles de caja por verificar.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [],
+     "notes": "golpes dobles: posiciones por verificar"
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "rockers",
+    "dub"
+   ],
+   "bpm_range": [
+    60,
+    90
+   ],
+   "bpm_range_verify": true,
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.3.3/steppers",
+   "name": "Steppers",
+   "taxonomy": [
+    "RGG.3.3",
+    "GRV.7",
+    "COG.2"
+   ],
+   "origin": {
+    "tradition": "Jamaica / Reino Unido",
+    "genre": [
+     "steppers",
+     "uk dub"
+    ],
+    "context": "bombo en cuatro pulsos dentro de un groove de reggae",
+    "attributions": [
+     "Sly Dunbar (Channel One)",
+     "Jah Shaka (difusión UK)"
+    ],
+    "sources": [
+     "Soundbrenner",
+     "Bass Culture"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "rim",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "swing": 1.0
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "steppers",
+    "dub",
+    "uk dub"
+   ],
+   "bpm_range": [
+    110,
+    140
+   ],
+   "bpm_range_verify": true,
+   "corpus": [
+    "Kick_Steppers, Steppers_130BPM (Sub System Dub, 130)",
+    "135_Kick (Rebel Skank)",
+    "120/140 Drum Rack (Echoes In The Smoke)"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.3.3/steppers_push",
+   "name": "Steppers con empuje",
+   "taxonomy": [
+    "RGG.3.3",
+    "ACE.2.3"
+   ],
+   "origin": {
+    "tradition": "dub contemporáneo",
+    "genre": [
+     "steppers"
+    ],
+    "context": "corchea o semicorchea añadida antes de un pulso",
+    "sources": [
+     "corpus: 112_Kick (Echoes In The Smoke)",
+     "corpus: 130_Kick 2 (Sub System Dub)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      2,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "rim",
+     "onsets": [
+      8
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "steppers",
+    "dub"
+   ],
+   "bpm_range": [
+    110,
+    135
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.3.4/half_drop",
+   "name": "Half drop / two drop",
+   "taxonomy": [
+    "RGG.3.4"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae"
+    ],
+    "context": "mencionados en un tutorial de producción de dub",
+    "sources": [
+     "DubRoom (nivel C)"
+    ]
+   },
+   "status": "V",
+   "verify": true,
+   "missing_data": true,
+   "verify_notes": "Patrones exactos no detallados en la fuente.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": []
+    },
+    {
+     "role": "snare",
+     "onsets": []
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.4.1/hat_8ths",
+   "name": "Hat en corcheas cerradas",
+   "taxonomy": [
+    "RGG.4.1",
+    "MIC.1.2"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae",
+     "dub"
+    ],
+    "context": "base del one drop",
+    "sources": [
+     "clasificación RGG §6",
+     "corpus: HiHat_8ths, 80_HiHat_2"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "rotate"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "dub"
+   ],
+   "bpm_range": [
+    60,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "hat_triplet_fill"
+   }
+  },
+  {
+   "id": "RGG.4.2/hat_8ths_swing",
+   "name": "Hat en corcheas con swing",
+   "taxonomy": [
+    "RGG.4.2",
+    "MIC.1.1"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae"
+    ],
+    "context": "subdivisión larga–corta; tiende a 1:1 a tempo rápido",
+    "sources": [
+     "clasificación RGG §6"
+    ]
+   },
+   "status": "I",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "swing": 1.6
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "roots"
+   ],
+   "bpm_range": [
+    60,
+    100
+   ],
+   "params": {
+    "swing_level": 0.5,
+    "tempo_coupling": 0.6
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "hat_triplet_fill"
+   }
+  },
+  {
+   "id": "RGG.4.2/hat_offbeat",
+   "name": "Hat en contratiempo",
+   "taxonomy": [
+    "RGG.4.2",
+    "ACE.2.2",
+    "GRV.1"
+   ],
+   "origin": {
+    "tradition": "dub, steppers, dub techno",
+    "genre": [
+     "dub",
+     "steppers",
+     "dub techno"
+    ],
+    "context": "contratiempo de corchea",
+    "sources": [
+     "corpus: HiHat-Offbeats, 130_Hihat, 112_HiHat_1, Steppers_130BPM"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae",
+    "dub_techno"
+   ],
+   "tags": [
+    "dub",
+    "steppers",
+    "dub techno"
+   ],
+   "bpm_range": [
+    110,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.4.3/flying_cymbal",
+   "name": "Flying cymbal (flyers)",
+   "taxonomy": [
+    "RGG.4.3"
+   ],
+   "origin": {
+    "tradition": "Jamaica, 1974–75",
+    "genre": [
+     "reggae"
+    ],
+    "context": "hat que alterna abierto y cerrado con siseo continuo; deriva del Philly bump",
+    "attributions": [
+     "Carlton 'Santa' Davis",
+     "Bunny Lee (nombre)"
+    ],
+    "sources": [
+     "FACT Magazine 2016",
+     "Red Bull Music Academy 2013"
+    ]
+   },
+   "status": "H",
+   "verify": true,
+   "verify_notes": "Origen documentado; rejilla exacta por verificar. Valor inicial: abierto en 2 y 4 según la descripción del informe.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      6,
+      8,
+      10,
+      14
+     ]
+    },
+    {
+     "role": "hat_open",
+     "onsets": [
+      4,
+      12
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "flyers"
+   ],
+   "bpm_range": [
+    70,
+    90
+   ],
+   "params": {
+    "open_mask": [
+     4,
+     12
+    ]
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.4.4/hat_triplet_fill",
+   "name": "Relleno de hat en tresillo",
+   "taxonomy": [
+    "RGG.4.4",
+    "MIC.2.6"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae",
+     "dub"
+    ],
+    "context": "tresillo de hat retrasado, recurso del one drop",
+    "sources": [
+     "clasificación RGG §6",
+     "corpus: Hihat_Triplets (Sub System Dub)"
+    ]
+   },
+   "status": "I",
+   "verify": false,
+   "cycle_len": 12,
+   "step_value": 0.333333,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      3,
+      4,
+      5,
+      6,
+      9
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "dub"
+   ],
+   "bpm_range": [
+    60,
+    140
+   ],
+   "params": {
+    "laid_back_ms": 10
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   },
+   "notes": "Rejilla de tresillo de corchea (12 pasos por compás). El corpus (Hihat_Triplets) lo programa en semicorcheas 4, 5, 6; aquí se ofrece en tresillo como describe RGG.4.4."
+  },
+  {
+   "id": "RGG.4.5/hat_16ths",
+   "name": "Hat en semicorcheas digitales",
+   "taxonomy": [
+    "RGG.4.5"
+   ],
+   "origin": {
+    "tradition": "Jamaica, riddims digitales",
+    "genre": [
+     "dancehall",
+     "dub"
+    ],
+    "context": "16 pasos con acentos",
+    "sources": [
+     "clasificación RGG §6",
+     "corpus: 64_HiHat_1, 80_HiHat_1"
+    ]
+   },
+   "status": "I",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+     ],
+     "velocity": [
+      100,
+      60,
+      85,
+      60,
+      100,
+      60,
+      85,
+      60,
+      100,
+      60,
+      85,
+      60,
+      100,
+      60,
+      85,
+      60
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dancehall",
+    "dub"
+   ],
+   "bpm_range": [
+    64,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.4.5/hat_double_offbeat",
+   "name": "Doble semicorchea a contratiempo",
+   "taxonomy": [
+    "RGG.4.5",
+    "ACE.2.2"
+   ],
+   "origin": {
+    "tradition": "dub contemporáneo",
+    "genre": [
+     "dub"
+    ],
+    "context": "par de semicorcheas en el «y» de cada pulso",
+    "sources": [
+     "corpus: 135_HiHat (Rebel Skank)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat",
+     "onsets": [
+      2,
+      3,
+      6,
+      7,
+      10,
+      11,
+      14,
+      15
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dub",
+    "steppers"
+   ],
+   "bpm_range": [
+    120,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.4.1/hat_open_offbeat_13",
+   "name": "Hat abierto en el contratiempo de 1 y 3",
+   "taxonomy": [
+    "RGG.4.1",
+    "ACE.2.2"
+   ],
+   "origin": {
+    "tradition": "dub contemporáneo",
+    "genre": [
+     "dub",
+     "steppers"
+    ],
+    "context": "apertura que respira en la primera mitad de cada pulso fuerte",
+    "sources": [
+     "corpus: 64_HiHat_Open_1, 137_HiHat_Open, 140 Drum Rack"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "hat_open",
+     "onsets": [
+      2,
+      10
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dub",
+    "steppers"
+   ],
+   "bpm_range": [
+    64,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.7/percusion_menor",
+   "name": "Percusión menor de dub",
+   "taxonomy": [
+    "RGG.7"
+   ],
+   "origin": {
+    "tradition": "Jamaica / dub",
+    "genre": [
+     "reggae",
+     "dub"
+    ],
+    "context": "pocas capas con función clara",
+    "sources": [
+     "clasificación RGG §9",
+     "corpus: Shaker, Tambourine, Woodblock (varios packs)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "shaker",
+     "onsets": [
+      2,
+      10
+     ]
+    },
+    {
+     "role": "tambourine",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "velocity": [
+      70,
+      55,
+      70,
+      55,
+      70,
+      55,
+      70,
+      55
+     ]
+    },
+    {
+     "role": "woodblock",
+     "onsets": [
+      6
+     ]
+    },
+    {
+     "role": "rim",
+     "onsets": [
+      8
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats",
+    "ethnic"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dub",
+    "reggae"
+   ],
+   "bpm_range": [
+    60,
+    140
+   ],
+   "params": {
+    "shaker_8ths": false,
+    "tambourine_offbeat": false,
+    "rim_click_3": true
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "dropout"
+   }
+  },
+  {
+   "id": "RGG.6.1/skank_offbeat",
+   "name": "Skank en contratiempo",
+   "taxonomy": [
+    "RGG.6.1",
+    "ACE.2.2",
+    "GRV.8"
+   ],
+   "origin": {
+    "tradition": "Jamaica (ska, reggae)",
+    "genre": [
+     "ska",
+     "reggae",
+     "dub"
+    ],
+    "context": "acorde corto en el «y» de cada pulso; frecuente en órgano y vientos",
+    "sources": [
+     "clasificación RGG §8",
+     "corpus: Organ Off Skank 135, Organ Skank 137, Horn Skank 64"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ],
+     "gate": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "ska",
+    "dub"
+   ],
+   "bpm_range": [
+    60,
+    160
+   ],
+   "params": {
+    "skank_mode": "offbeat"
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.6.2/chop_2_4",
+   "name": "Chop en 2 y 4",
+   "taxonomy": [
+    "RGG.6.2",
+    "ACE.2.2"
+   ],
+   "origin": {
+    "tradition": "Jamaica",
+    "genre": [
+     "reggae",
+     "dub"
+    ],
+    "context": "acorde en el backbeat, guitarra y piano duplicados; el modo dominante en el corpus",
+    "sources": [
+     "clasificación RGG §8",
+     "corpus: Piano/Clav/Guitar Skank en la mayoría de los packs"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      4,
+      12
+     ],
+     "gate": [
+      0.25,
+      0.25
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "dub",
+    "roots"
+   ],
+   "bpm_range": [
+    60,
+    140
+   ],
+   "params": {
+    "skank_mode": "backbeat"
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.6.2/double_skank",
+   "name": "Double skank",
+   "taxonomy": [
+    "RGG.6.2",
+    "RGG.6.1"
+   ],
+   "origin": {
+    "tradition": "reggae y dub",
+    "genre": [
+     "reggae",
+     "dub"
+    ],
+    "context": "chop en 2 y 4 seguido de la corchea siguiente",
+    "sources": [
+     "corpus: Electric Keys Double Skank 137, DoubleSkank_1 130"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      4,
+      6,
+      12,
+      14
+     ],
+     "gate": [
+      0.22,
+      0.18,
+      0.22,
+      0.18
+     ],
+     "velocity": [
+      100,
+      80,
+      100,
+      80
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "dub"
+   ],
+   "bpm_range": [
+    110,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.6.3/bubble",
+   "name": "Bubble de órgano",
+   "taxonomy": [
+    "RGG.6.3"
+   ],
+   "origin": {
+    "tradition": "Jamaica, reggae temprano",
+    "genre": [
+     "reggae"
+    ],
+    "context": "mano izquierda en contratiempo con semicorcheas de enmarque; mano derecha en 2 y 4",
+    "attributions": [
+     "Jenson (Berklee) como fuente pedagógica"
+    ],
+    "sources": [
+     "Berklee, Bubblin' (Jenson 2015)",
+     "corpus: 116_F#m_Organ (Sinister Dub)"
+    ]
+   },
+   "status": "C",
+   "verify": true,
+   "verify_notes": "La rejilla sale de un único archivo del corpus; contrastar con la transcripción de Jenson.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      2,
+      4,
+      6,
+      10,
+      12,
+      14
+     ],
+     "gate": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+     ],
+     "velocity": [
+      80,
+      100,
+      80,
+      80,
+      100,
+      80
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae",
+    "roots"
+   ],
+   "bpm_range": [
+    60,
+    120
+   ],
+   "params": {
+    "bubble_on": true,
+    "frame_16ths": true,
+    "bubble_split": true
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   },
+   "notes": "El corpus da una sola línea; el reparto entre mano izquierda (contratiempos) y derecha (2 y 4) se controla con el parámetro bubble_split."
+  },
+  {
+   "id": "RGG.6.4/strum",
+   "name": "Strum de semicorchea",
+   "taxonomy": [
+    "RGG.6.4"
+   ],
+   "origin": {
+    "tradition": "Jamaica, reggae temprano",
+    "genre": [
+     "reggae"
+    ],
+    "context": "rasgueo que sustituyó el skank en 2 y 4",
+    "sources": [
+     "clasificación RGG §8"
+    ]
+   },
+   "status": "V",
+   "verify": true,
+   "missing_data": true,
+   "verify_notes": "Patrón exacto por verificar.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": []
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "reggae"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.5.3/bass_roots_space",
+   "name": "Bajo de roots con espacio",
+   "taxonomy": [
+    "RGG.5.3",
+    "RGG.5.4"
+   ],
+   "origin": {
+    "tradition": "Jamaica, roots y dub",
+    "genre": [
+     "roots",
+     "dub"
+    ],
+    "context": "frase corta con silencios amplios, respuesta en la segunda mitad",
+    "sources": [
+     "clasificación RGG §7",
+     "corpus: 130_Gm_Bass_Line, 135_G_Synth_Bass_Sub, 137_Cm_Sub_Bass"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "bass",
+     "onsets": [
+      0,
+      8,
+      10,
+      12,
+      14
+     ],
+     "gate": [
+      0.9,
+      0.45,
+      0.45,
+      0.45,
+      0.8
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate",
+    "swing"
+   ],
+   "destinations": [
+    "bassline"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "roots",
+    "dub"
+   ],
+   "bpm_range": [
+    60,
+    140
+   ],
+   "params": {
+    "bass_space": 0.6,
+    "offbeat_bias": 0.3,
+    "repeat_len": 2,
+    "octave_jump_prob": 0.15,
+    "lock_to_kick": false
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "dropout"
+   }
+  },
+  {
+   "id": "RGG.5.4/bass_dub_sub",
+   "name": "Sub de dub en 1 y 3",
+   "taxonomy": [
+    "RGG.5.4"
+   ],
+   "origin": {
+    "tradition": "dub",
+    "genre": [
+     "dub",
+     "steppers"
+    ],
+    "context": "sub de notas largas",
+    "sources": [
+     "corpus: 116_F#m_SubBass, 120_Cm_SubBass, 80_Cm_SubBass"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "bass",
+     "onsets": [
+      0,
+      8
+     ],
+     "gate": [
+      1.8,
+      1.8
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "bassline"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dub",
+    "steppers"
+   ],
+   "bpm_range": [
+    70,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "dropout"
+   }
+  },
+  {
+   "id": "RGG.10.3/dubstep_halftime",
+   "name": "Dubstep (medio tiempo)",
+   "taxonomy": [
+    "RGG.10.3",
+    "FOR.3",
+    "GRV.3"
+   ],
+   "origin": {
+    "tradition": "Reino Unido",
+    "genre": [
+     "dubstep"
+    ],
+    "context": "caja en el 3 a 140 BPM",
+    "attributions": [
+     "Kode9 (observación perceptiva)"
+    ],
+    "sources": [
+     "Modern Drummer",
+     "Musical-U"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "swing": 1.3
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae",
+    "electronic"
+   ],
+   "tags": [
+    "dubstep"
+   ],
+   "bpm_range": [
+    132,
+    142
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.10.3/half_step",
+   "name": "Half-step de dub",
+   "taxonomy": [
+    "RGG.10.3",
+    "GRV.3"
+   ],
+   "origin": {
+    "tradition": "dub contemporáneo",
+    "genre": [
+     "dub",
+     "half-step"
+    ],
+    "context": "bombo sincopado en la primera mitad, caja en el 3",
+    "sources": [
+     "corpus: Kick_Halfstep, Half_Step_130BPM (Sub System Dub)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      2,
+      6
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [
+      8
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      0,
+      4,
+      5,
+      6,
+      8,
+      12
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "dub",
+    "half-step"
+   ],
+   "bpm_range": [
+    125,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.10.4/dembow",
+   "name": "Dembow",
+   "taxonomy": [
+    "RGG.10.4",
+    "CIC.6.1",
+    "CIC.3.1",
+    "RGG.9.2"
+   ],
+   "origin": {
+    "tradition": "Jamaica → Panamá → Puerto Rico",
+    "genre": [
+     "dancehall",
+     "reggaetón"
+    ],
+    "context": "Poco Man Jam (1989), Dem Bow (1990)",
+    "attributions": [
+     "Steely & Clevie",
+     "Bobby Digital",
+     "Dennis 'the Menace' Thompson"
+    ],
+    "sources": [
+     "Berklee, What Is Dembow?",
+     "Wayne & Wax"
+    ]
+   },
+   "status": "I",
+   "verify": true,
+   "verify_notes": "Posiciones de caja divergentes entre fuentes.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [
+      3,
+      6,
+      11,
+      14
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "dub_reggae",
+    "latin_percussion"
+   ],
+   "tags": [
+    "reggaeton",
+    "dancehall",
+    "dembow"
+   ],
+   "bpm_range": [
+    85,
+    100
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "RGG.1.1/nyabinghi_roles",
+   "name": "Nyabinghi (principio de tres roles)",
+   "taxonomy": [
+    "RGG.1.1",
+    "SUP.1"
+   ],
+   "origin": {
+    "tradition": "Rastafari, Jamaica",
+    "genre": [
+     "nyabinghi"
+    ],
+    "context": "música ceremonial; precursora del ska y el reggae a través de Count Ossie",
+    "sources": [
+     "All Around This World",
+     "clasificación RGG §3"
+    ],
+    "restricted_use": true
+   },
+   "status": "H",
+   "verify": true,
+   "restricted_use": true,
+   "structural_only": true,
+   "cultural_note": "Repertorio religioso rastafari. El dispositivo usa solo el principio de tres roles (base, pulso, improvisación) y no ofrece toques ceremoniales como preset.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "base",
+     "onsets": [
+      0,
+      8
+     ],
+     "timbre": [
+      2,
+      3
+     ]
+    },
+    {
+     "role": "pulse",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ],
+     "timbre": [
+      1,
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "role": "improvising",
+     "onsets": [
+      4,
+      12
+     ],
+     "timbre": [
+      1,
+      1
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "ethnic"
+   ],
+   "categories": [
+    "dub_reggae"
+   ],
+   "tags": [
+    "ritual"
+   ],
+   "params": {
+    "thunder_syncopation_prob": 0.15,
+    "repeater_density": 0.4,
+    "repeater_accent_beats": [
+     2,
+     4
+    ]
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  }
+ ]
+}

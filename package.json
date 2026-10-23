@@ -1,0 +1,24 @@
+{
+  "name": "sv-ritmic-sequencer",
+  "version": "0.5.0",
+  "description": "SV Ritmic Sequencer · MIDI Effect de Max for Live (Sidera Visus) que genera patrones rítmicos MIDI a partir de teoría, musicología y etnomusicología.",
+  "private": true,
+  "license": "UNLICENSED",
+  "author": "Néstor Paredes Ulloa (Sidera Visus)",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "build": "node tools/build_amxd.js",
+    "install-device": "node tools/build_amxd.js --install",
+    "build-listen": "node tools/build_listen.js",
+    "install-listen": "node tools/build_listen.js --install",
+    "examples": "node tools/render_examples.js",
+    "mockups": "node tools/render_ui.js",
+    "package": "node tools/package.js"
+  },
+  "devDependencies": {
+    "ajv": "8.18.0"
+  }
+}

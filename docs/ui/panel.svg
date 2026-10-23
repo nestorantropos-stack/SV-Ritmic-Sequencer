@@ -1,0 +1,399 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+<rect x="0.00" y="0.00" width="1000.00" height="640.00" fill="#141519"/>
+<text x="8.00" y="25.76" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#ECEDF0">Navegador de ritmos</text>
+<text x="198.00" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">Todos</text>
+<text x="232.00" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#737884">›</text>
+<text x="244.00" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">Reggae, dub y deriva…</text>
+<text x="367.60" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#737884">›</text>
+<text x="379.60" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.10</text>
+<text x="419.20" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#737884">›</text>
+<text x="431.20" y="24.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">RGG.10.2</text>
+<rect x="700.00" y="9.00" width="180.00" height="22.00" rx="3" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="708.00" y="23.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#737884">Buscar…</text>
+<rect x="486.50" y="9.50" width="103.00" height="21.00" rx="4" fill="#3f4f59" stroke="#8FD6EA" stroke-width="1"/>
+<text x="538.00" y="23.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle" fill="#ECEDF0">Solo Acordes</text>
+<rect x="594.50" y="9.50" width="99.00" height="21.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="644.00" y="23.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A9ADB7">Solo verificados</text>
+<text x="890.00" y="23.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">9 ritmos</text>
+<rect x="8.00" y="44.00" width="220.00" height="404.00" rx="4" fill="#1B1D22" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="20.00" cy="57.00" r="4.00" fill="#4FC3F7"/>
+<text x="28.00" y="60.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">MET · Métrica</text>
+<circle cx="20.00" cy="75.00" r="4.00" fill="#FF8A65"/>
+<text x="28.00" y="78.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">ACE · Acentuación</text>
+<circle cx="20.00" cy="93.00" r="4.00" fill="#BA68C8"/>
+<text x="28.00" y="96.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">SUP · Superposición</text>
+<circle cx="20.00" cy="111.00" r="4.00" fill="#FFF176"/>
+<text x="28.00" y="114.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">MIC · Microtiempo y expresión</text>
+<circle cx="20.00" cy="129.00" r="4.00" fill="#81C784"/>
+<text x="28.00" y="132.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">CIC · Ciclo y periodicidad</text>
+<circle cx="20.00" cy="147.00" r="4.00" fill="#F06292"/>
+<text x="28.00" y="150.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">PRO · Procedimientos compositi…</text>
+<circle cx="20.00" cy="165.00" r="4.00" fill="#7986CB"/>
+<text x="28.00" y="168.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">FOR · Forma temporal y tempo</text>
+<circle cx="20.00" cy="183.00" r="4.00" fill="#4DB6AC"/>
+<text x="28.00" y="186.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">COG · Cognición y análisis</text>
+<circle cx="20.00" cy="201.00" r="4.00" fill="#FFB74D"/>
+<text x="28.00" y="204.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">GRV · Grooves electrónicos y p…</text>
+<circle cx="20.00" cy="219.00" r="4.00" fill="#AED581"/>
+<text x="28.00" y="222.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#ECEDF0">RGG · Reggae, dub y derivados</text>
+<circle cx="32.00" cy="237.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="240.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.1  Raíces rituales y precu…</text>
+<circle cx="32.00" cy="255.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="258.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.2  Eras de la música popul…</text>
+<circle cx="32.00" cy="273.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="276.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.3  Batería: familias de bo…</text>
+<circle cx="32.00" cy="291.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="294.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.4  Hi-hat y platillos</text>
+<circle cx="32.00" cy="309.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="312.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.5  Bajo</text>
+<circle cx="32.00" cy="327.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="330.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.6  Guitarra, piano y órgano</text>
+<circle cx="32.00" cy="345.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="348.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.7  Percusión menor</text>
+<circle cx="32.00" cy="363.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="366.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.8  Dub: procedimientos con…</text>
+<circle cx="32.00" cy="381.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="384.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.9  Riddim digital y danceh…</text>
+<circle cx="32.00" cy="399.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="40.00" y="402.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.10  Derivados fuera de Jam…</text>
+<circle cx="44.00" cy="417.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="52.00" y="420.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">RGG.10.1  UK steppers</text>
+<rect x="11.00" y="426.00" width="214.00" height="17.00" rx="3" fill="#334049"/>
+<circle cx="44.00" cy="435.00" r="2.00" fill="#AED581" fill-opacity="0.8"/>
+<text x="52.00" y="438.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#ECEDF0">RGG.10.2  Dub techno</text>
+<rect x="236.00" y="44.00" width="380.00" height="404.00" rx="4" fill="#1B1D22" stroke="#3A3F49" stroke-width="1"/>
+<rect x="240.00" y="48.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="73.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="73.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,56.00 283.00,73.00 266.00,90.00 249.00,73.00" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="56.00" r="4.51" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="56.00" r="3.01" fill="#F7F3DC"/>
+<circle cx="283.00" cy="73.00" r="4.25" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="283.00" cy="73.00" r="2.75" fill="#F7F3DC"/>
+<circle cx="266.00" cy="90.00" r="4.39" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="90.00" r="2.89" fill="#F7F3DC"/>
+<circle cx="249.00" cy="73.00" r="4.25" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="249.00" cy="73.00" r="2.75" fill="#F7F3DC"/>
+<polygon points="276.34,62.66 276.34,83.34 255.66,83.34 255.66,62.66" fill="#C9B8FF" fill-opacity="0.08" stroke="#C9B8FF" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="276.34" cy="62.66" r="4.12" fill="#C9B8FF" fill-opacity="0.18"/>
+<circle cx="276.34" cy="62.66" r="2.62" fill="#C9B8FF"/>
+<circle cx="276.34" cy="83.34" r="4.12" fill="#C9B8FF" fill-opacity="0.18"/>
+<circle cx="276.34" cy="83.34" r="2.62" fill="#C9B8FF"/>
+<circle cx="255.66" cy="83.34" r="4.12" fill="#C9B8FF" fill-opacity="0.18"/>
+<circle cx="255.66" cy="83.34" r="2.62" fill="#C9B8FF"/>
+<circle cx="255.66" cy="62.66" r="4.12" fill="#C9B8FF" fill-opacity="0.18"/>
+<circle cx="255.66" cy="62.66" r="2.62" fill="#C9B8FF"/>
+<text x="292.00" y="63.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Dub techno (base)</text>
+<text x="292.00" y="77.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">Berlín, 1993 · 4/4 · 16</text>
+<rect x="292.00" y="82.00" width="55.36" height="13.00" rx="6.5" fill="#3e382e" stroke="#F3C86E" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="91.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#F3C86E">verificar</text>
+<rect x="240.00" y="102.00" width="372.00" height="50.00" rx="4" fill="#303b44" stroke="#8FD6EA" stroke-width="1"/>
+<circle cx="266.00" cy="127.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="127.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,110.00 278.02,139.02 253.98,114.98" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="110.00" r="4.31" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="110.00" r="2.81" fill="#F7F3DC"/>
+<circle cx="278.02" cy="139.02" r="4.11" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="278.02" cy="139.02" r="2.61" fill="#F7F3DC"/>
+<circle cx="253.98" cy="114.98" r="4.16" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="253.98" cy="114.98" r="2.66" fill="#F7F3DC"/>
+<text x="292.00" y="117.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Stab: 1, «y» del 2, «y» del 4</text>
+<text x="292.00" y="131.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="292.00" y="136.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="145.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="240.00" y="156.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="181.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="181.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,164.00 253.98,193.02" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="164.00" r="4.51" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="164.00" r="3.01" fill="#F7F3DC"/>
+<circle cx="253.98" cy="193.02" r="4.12" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="253.98" cy="193.02" r="2.62" fill="#F7F3DC"/>
+<text x="292.00" y="171.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Stab: 1 y «y» del 3</text>
+<text x="292.00" y="185.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="292.00" y="190.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="199.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="240.00" y="210.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="235.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="235.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,218.00 281.71,241.51 253.98,247.02" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="218.00" r="4.31" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="218.00" r="2.81" fill="#F7F3DC"/>
+<circle cx="281.71" cy="241.51" r="4.13" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="281.71" cy="241.51" r="2.63" fill="#F7F3DC"/>
+<circle cx="253.98" cy="247.02" r="4.18" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="253.98" cy="247.02" r="2.68" fill="#F7F3DC"/>
+<text x="292.00" y="225.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Stab: 1, 6, 11 (3+5+…)</text>
+<text x="292.00" y="239.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="292.00" y="244.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="253.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="240.00" y="264.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="289.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="289.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,272.00 281.71,282.49 278.02,301.02 259.49,304.71 249.00,289.00 259.49,273.29" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="272.00" r="4.23" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="272.00" r="2.73" fill="#F7F3DC"/>
+<circle cx="281.71" cy="282.49" r="4.06" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="281.71" cy="282.49" r="2.56" fill="#F7F3DC"/>
+<circle cx="278.02" cy="301.02" r="4.13" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="278.02" cy="301.02" r="2.63" fill="#F7F3DC"/>
+<circle cx="259.49" cy="304.71" r="4.41" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="259.49" cy="304.71" r="2.91" fill="#F7F3DC"/>
+<circle cx="249.00" cy="289.00" r="4.16" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="249.00" cy="289.00" r="2.66" fill="#F7F3DC"/>
+<circle cx="259.49" cy="273.29" r="4.03" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="259.49" cy="273.29" r="2.53" fill="#F7F3DC"/>
+<text x="292.00" y="279.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Stab denso (seis ataques)</text>
+<text x="292.00" y="293.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="292.00" y="298.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="307.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="240.00" y="318.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="343.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="343.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="266.00,326.00 278.02,330.98 283.00,343.00 278.02,355.02 266.00,360.00 253.98,355.02 249.00,343.00 253.98,330.98" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1" stroke-opacity="0.85"/>
+<circle cx="266.00" cy="326.00" r="4.51" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="326.00" r="3.01" fill="#F7F3DC"/>
+<circle cx="278.02" cy="330.98" r="4.12" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="278.02" cy="330.98" r="2.62" fill="#F7F3DC"/>
+<circle cx="283.00" cy="343.00" r="4.25" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="283.00" cy="343.00" r="2.75" fill="#F7F3DC"/>
+<circle cx="278.02" cy="355.02" r="4.12" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="278.02" cy="355.02" r="2.62" fill="#F7F3DC"/>
+<circle cx="266.00" cy="360.00" r="4.39" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="360.00" r="2.89" fill="#F7F3DC"/>
+<circle cx="253.98" cy="355.02" r="4.12" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="253.98" cy="355.02" r="2.62" fill="#F7F3DC"/>
+<circle cx="249.00" cy="343.00" r="4.25" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="249.00" cy="343.00" r="2.75" fill="#F7F3DC"/>
+<circle cx="253.98" cy="330.98" r="4.12" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="253.98" cy="330.98" r="2.62" fill="#F7F3DC"/>
+<text x="292.00" y="333.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Stab en corcheas continuas</text>
+<text x="292.00" y="347.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="292.00" y="352.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="297.00" y="361.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="240.00" y="372.00" width="372.00" height="50.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="397.00" r="20.00" fill="#1c1f1e"/>
+<circle cx="266.00" cy="397.00" r="17.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="266.00" cy="380.00" r="4.51" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="266.00" cy="380.00" r="3.01" fill="#F7F3DC"/>
+<text x="292.00" y="387.96" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start" fill="#ECEDF0">Colchón de acorde</text>
+<text x="292.00" y="401.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">dub techno · 4/4 · 16</text>
+<rect x="624.00" y="44.00" width="368.00" height="404.00" rx="4" fill="#1B1D22" stroke="#3A3F49" stroke-width="1"/>
+<circle cx="696.00" cy="120.00" r="64.00" fill="#1c1f1e"/>
+<circle cx="696.00" cy="120.00" r="58.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<line x1="696.00" y1="69.00" x2="696.00" y2="62.00" fill="none" stroke="#A9ADB7" stroke-width="1.4"/>
+<line x1="717.43" y1="68.26" x2="718.20" y2="66.41" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="734.71" y1="81.29" x2="737.01" y2="78.99" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="747.74" y1="98.57" x2="749.59" y2="97.80" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="749.50" y1="120.00" x2="754.00" y2="120.00" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="747.74" y1="141.43" x2="749.59" y2="142.20" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="734.71" y1="158.71" x2="737.01" y2="161.01" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="717.43" y1="171.74" x2="718.20" y2="173.59" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="696.00" y1="172.25" x2="696.00" y2="178.00" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="674.57" y1="171.74" x2="673.80" y2="173.59" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="657.29" y1="158.71" x2="654.99" y2="161.01" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="644.26" y1="141.43" x2="642.41" y2="142.20" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="642.50" y1="120.00" x2="638.00" y2="120.00" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="644.26" y1="98.57" x2="642.41" y2="97.80" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="657.29" y1="81.29" x2="654.99" y2="78.99" fill="none" stroke="#737884" stroke-width="1"/>
+<line x1="674.57" y1="68.26" x2="673.80" y2="66.41" fill="none" stroke="#737884" stroke-width="1"/>
+<polygon points="696.00,62.00 737.01,161.01 654.99,78.99" fill="#AED581" fill-opacity="0.08" stroke="#AED581" stroke-width="1.4" stroke-opacity="0.85"/>
+<circle cx="696.00" cy="62.00" r="7.02" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="696.00" cy="62.00" r="4.52" fill="#F7F3DC"/>
+<circle cx="737.01" cy="161.01" r="6.66" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="737.01" cy="161.01" r="4.16" fill="#F7F3DC"/>
+<circle cx="654.99" cy="78.99" r="6.75" fill="#AED581" fill-opacity="0.18"/>
+<circle cx="654.99" cy="78.99" r="4.25" fill="#F7F3DC"/>
+<text x="768.00" y="64.68" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="13" text-anchor="start" fill="#ECEDF0">Stab: 1, «y» del 2, «y» del 4</text>
+<text x="768.00" y="99.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#737884">RGG.10.2/stab_1_7_15</text>
+<text x="768.00" y="115.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">dub techno</text>
+<text x="768.00" y="131.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#737884">4/4 · ciclo 16 · 4 negras</text>
+<rect x="768.00" y="140.00" width="40.24" height="13.00" rx="6.5" fill="#2c3744" stroke="#86BDF5" stroke-width="1" stroke-opacity="0.8"/>
+<text x="773.00" y="149.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#86BDF5">corpus</text>
+<rect x="812.24" y="140.00" width="25.12" height="13.00" rx="6.5" fill="#32343a" stroke="#A9ADB7" stroke-width="1" stroke-opacity="0.8"/>
+<text x="817.24" y="149.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">[C]</text>
+<rect x="634.00" y="190.00" width="50.32" height="13.00" rx="6.5" fill="#333a31" stroke="#AED581" stroke-width="1" stroke-opacity="0.8"/>
+<text x="639.00" y="199.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#AED581">RGG.10.2</text>
+<rect x="688.32" y="190.00" width="45.28" height="13.00" rx="6.5" fill="#3f2e2d" stroke="#FF8A65" stroke-width="1" stroke-opacity="0.8"/>
+<text x="693.32" y="199.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#FF8A65">ACE.2.2</text>
+<text x="634.00" y="215.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="start" fill="#8FD6EA">Definición</text>
+<text x="634.00" y="227.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">Dub techno: Bombo en cuatro, hat en contratiempo y stabs de</text>
+<text x="634.00" y="241.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">acorde con eco (Basic Channel, 1993); cambios microscópicos</text>
+<text x="634.00" y="255.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">sobre un lazo estable.</text>
+<text x="634.00" y="273.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="start" fill="#8FD6EA">Origen</text>
+<text x="634.00" y="285.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">patrón más frecuente del corpus · dub techno</text>
+<text x="634.00" y="303.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="start" fill="#8FD6EA">Fuentes</text>
+<text x="634.00" y="315.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#A9ADB7">corpus DDT: Chord_09, 16, 42</text>
+<rect x="634.50" y="418.50" width="159.00" height="21.00" rx="4" fill="#8FD6EA" stroke="#8FD6EA" stroke-width="1"/>
+<text x="714.00" y="432.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="middle" fill="#141519">Usar este ritmo</text>
+<rect x="800.50" y="418.50" width="89.00" height="21.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<polygon points="808.00,425.00 815.00,429.00 808.00,433.00" fill="#A9ADB7"/>
+<text x="855.00" y="432.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle" fill="#A9ADB7">Escuchar</text>
+<rect x="896.50" y="418.50" width="85.00" height="21.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="939.00" y="432.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="middle" fill="#A9ADB7">Generar</text>
+<rect x="8.00" y="456.00" width="700.00" height="176.00" rx="4" fill="#1B1D22" stroke="#3A3F49" stroke-width="1"/>
+<text x="16.00" y="469.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start" fill="#A9ADB7">Vista previa del clip</text>
+<rect x="16.00" y="476.00" width="684.00" height="100.00" rx="3" fill="#141519" stroke="#3A3F49" stroke-width="1"/>
+<line x1="103.00" y1="477.00" x2="103.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="188.00" y1="477.00" x2="188.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="273.00" y1="477.00" x2="273.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="358.00" y1="477.00" x2="358.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="443.00" y1="477.00" x2="443.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="528.00" y1="477.00" x2="528.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<line x1="613.00" y1="477.00" x2="613.00" y2="575.00" fill="none" stroke="#3A3F49" stroke-width="1" stroke-opacity="0.6"/>
+<rect x="18.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="18.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="18.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="45.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="45.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="45.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="49.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="49.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="49.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="71.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="71.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="71.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="92.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="92.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="92.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="103.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="103.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="103.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="130.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="130.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="130.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="134.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="134.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="134.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="156.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="156.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="156.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="177.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="177.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="177.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="188.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="188.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="188.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="215.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="215.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="215.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="219.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="219.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="219.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="241.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="241.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="241.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="262.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="262.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="262.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="273.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="273.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="273.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="300.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="300.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="300.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="304.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="304.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="304.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="326.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="326.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="326.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="347.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="347.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="347.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="358.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="358.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="358.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="385.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="385.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="385.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="389.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="389.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="389.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="411.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="411.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="411.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="432.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="432.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="432.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="443.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="443.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="443.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="470.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="470.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="470.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="474.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="474.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="474.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="496.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="496.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="496.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="517.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="517.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="517.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="528.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="528.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="528.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="555.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="555.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="555.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="559.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="559.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="559.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="581.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="581.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="581.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="602.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="602.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="602.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="613.00" y="551.85" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="613.00" y="529.69" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="613.00" y="500.15" width="11.42" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.9232283464566929"/>
+<rect x="640.89" y="551.85" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="640.89" y="529.69" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="640.89" y="500.15" width="3.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7082677165354331"/>
+<rect x="644.88" y="551.85" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="644.88" y="529.69" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="644.88" y="500.15" width="11.48" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="666.13" y="551.85" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="666.13" y="529.69" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="666.13" y="500.15" width="9.32" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="687.38" y="551.85" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="687.38" y="529.69" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="687.38" y="500.15" width="7.83" height="6.38" rx="1" fill="#8FD6EA" fill-opacity="0.7645669291338583"/>
+<rect x="16.00" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="101.75" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="187.50" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="273.25" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="359.00" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="444.75" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="530.50" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="616.25" y="582.00" width="83.75" height="8.00" rx="2" fill="#4f6b77"/>
+<rect x="610.50" y="458.50" width="89.00" height="15.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="655.00" y="469.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A9ADB7">Exportar .mid</text>
+<text x="158.00" y="469.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#737884">Atajos (Mayús +): G generar · R regenerar · V variar · Z deshacer · Y rehacer · P escu…</text>
+<text x="16.00" y="603.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#A9ADB7">8 comp. · 8× 4 · fin: —</text>
+<text x="16.00" y="619.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="start" fill="#737884">Rejilla deformable</text>
+<line x1="118.00" y1="616.00" x2="700.00" y2="616.00" fill="none" stroke="#3A3F49" stroke-width="1"/>
+<line x1="118.00" y1="611.00" x2="118.00" y2="621.00" fill="none" stroke="#737884" stroke-width="1"/>
+<circle cx="118.00" cy="616.00" r="3.00" fill="#A9ADB7"/>
+<line x1="263.50" y1="611.00" x2="263.50" y2="621.00" fill="none" stroke="#737884" stroke-width="1"/>
+<circle cx="299.88" cy="616.00" r="3.00" fill="#C9B8FF"/>
+<line x1="409.00" y1="611.00" x2="409.00" y2="621.00" fill="none" stroke="#737884" stroke-width="1"/>
+<circle cx="409.00" cy="616.00" r="3.00" fill="#A9ADB7"/>
+<line x1="554.50" y1="611.00" x2="554.50" y2="621.00" fill="none" stroke="#737884" stroke-width="1"/>
+<circle cx="590.88" cy="616.00" r="3.00" fill="#C9B8FF"/>
+<text x="700.00" y="610.24" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="end" fill="#737884">Swing de semicorchea 62 %</text>
+<rect x="716.00" y="456.00" width="276.00" height="176.00" rx="4" fill="#1B1D22" stroke="#3A3F49" stroke-width="1"/>
+<rect x="722.50" y="461.50" width="84.00" height="16.00" rx="4" fill="#3f4f59" stroke="#8FD6EA" stroke-width="1"/>
+<text x="764.50" y="472.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" font-weight="700" text-anchor="middle" fill="#ECEDF0">Capas</text>
+<rect x="810.50" y="461.50" width="84.00" height="16.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="852.50" y="472.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A9ADB7">Historial</text>
+<rect x="898.50" y="461.50" width="84.00" height="16.00" rx="4" fill="#23262D" stroke="#3A3F49" stroke-width="1"/>
+<text x="940.50" y="472.74" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="9" text-anchor="middle" fill="#A9ADB7">Preajustes</text>
+<rect x="724.00" y="484.00" width="260.00" height="18.00" rx="3" fill="#423e37" stroke="#F3C86E" stroke-width="1"/>
+<circle cx="734.00" cy="493.00" r="4.00" fill="#8FD6EA"/>
+<text x="744.00" y="496.60" font-family="Ableton Sans, Inter, Segoe UI, Arial, sans-serif" font-size="10" text-anchor="start" fill="#ECEDF0">chord · 4 ataques</text>
+<rect x="966.00" y="492.00" width="8.00" height="6.00" rx="1" fill="#F3C86E"/>
+<path d="M967.00 492.00 A3 3 0 0 1 973.00 492.00" fill="none" stroke="#F3C86E" stroke-width="1.3"/>
+</svg>

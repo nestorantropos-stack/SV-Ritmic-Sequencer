@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sv-rs/microtiming.schema.json",
+  "title": "Plantillas de microtiempo",
+  "type": "object",
+  "required": ["version", "templates"],
+  "properties": {
+    "version": { "type": "string" },
+    "notes": { "type": "string" },
+    "templates": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "taxonomy", "status", "verify"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9_]+$" },
+          "name": { "type": "string" },
+          "taxonomy": { "type": "array", "items": { "type": "string" } },
+          "status": { "enum": ["H", "I", "Hip", "V", "C"] },
+          "verify": { "type": "boolean" },
+          "verify_notes": { "type": "string" },
+          "step_offsets": { "oneOf": [ { "type": "null" }, { "type": "array", "items": { "type": "number", "minimum": -0.5, "maximum": 0.5 } } ] },
+          "beat_proportions": { "oneOf": [ { "type": "null" }, { "type": "array", "items": { "type": "number", "exclusiveMinimum": 0 } } ] },
+          "global_offset": { "type": "number", "minimum": -0.5, "maximum": 0.5 },
+          "meter": { "type": "string" },
+          "notes": { "type": "string" }
+        }
+      }
+    }
+  }
+}

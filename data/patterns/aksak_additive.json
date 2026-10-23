@@ -1,0 +1,73 @@
+{
+  "family": "aksak_additive",
+  "name": "Aksak y compases aditivos",
+  "notes": "Estructuras de Brăiloiu (MET.3.3): inicios de grupo de 2 y 3 corcheas. El generador aksak(n) produce todas las composiciones; aquí van las más usadas como presets. Los nombres de danzas concretas no se fijan sin fuente.",
+  "patterns": [
+    {
+      "id": "MET.3.3/aksak_5_23", "name": "Aksak 5/8 (2+3)",
+      "taxonomy": ["MET.3.3", "MET.3.2"],
+      "origin": { "tradition": "Balcanes, Anatolia y otras", "genre": ["aksak"], "context": "unidad breve y larga en proporción 2:3", "sources": ["Brăiloiu 1951/52"] },
+      "status": "H", "verify": false, "cycle_len": 5, "step_value": 0.5, "meter": "5/8", "grouping": [2, 3],
+      "layers": [ { "role": "group", "onsets": [0, 2], "velocity": [120, 95] } ],
+      "transforms_allowed": ["rotate", "reverse", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["aksak", "5/8", "balkan"], "bpm_range": [90, 200],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "MET.3.3/aksak_7_223", "name": "Aksak 7/8 (2+2+3)",
+      "taxonomy": ["MET.3.3", "MET.3.2"],
+      "origin": { "tradition": "Balcanes, Anatolia", "genre": ["aksak"], "context": "7/8 con el grupo largo al final", "sources": ["Brăiloiu 1951/52", "meta-análisis §4.3"] },
+      "status": "H", "verify": false, "cycle_len": 7, "step_value": 0.5, "meter": "7/8", "grouping": [2, 2, 3],
+      "layers": [ { "role": "group", "onsets": [0, 2, 4], "velocity": [120, 95, 100] } ],
+      "transforms_allowed": ["rotate", "reverse", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["aksak", "7/8", "balkan"], "bpm_range": [90, 200],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "MET.3.3/aksak_7_322", "name": "Aksak 7/8 (3+2+2)",
+      "taxonomy": ["MET.3.3", "MET.3.2"],
+      "origin": { "tradition": "Balcanes, Anatolia", "genre": ["aksak"], "context": "7/8 con el grupo largo al inicio (como el rupak)", "sources": ["Brăiloiu 1951/52", "meta-análisis §4.3"] },
+      "status": "H", "verify": false, "cycle_len": 7, "step_value": 0.5, "meter": "7/8", "grouping": [3, 2, 2],
+      "layers": [ { "role": "group", "onsets": [0, 3, 5], "velocity": [120, 95, 100] } ],
+      "transforms_allowed": ["rotate", "reverse", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["aksak", "7/8", "balkan"], "bpm_range": [90, 200],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "MET.3.3/aksak_9_2223", "name": "Aksak 9/8 (2+2+2+3)",
+      "taxonomy": ["MET.3.3", "CIC.4.4"],
+      "origin": { "tradition": "Turquía, Balcanes", "genre": ["aksak", "karşılama"], "context": "el aksak por antonomasia", "sources": ["Brăiloiu 1951/52", "meta-análisis §2.5 CIC.4.4"] },
+      "status": "H", "verify": false, "cycle_len": 9, "step_value": 0.5, "meter": "9/8", "grouping": [2, 2, 2, 3],
+      "layers": [ { "role": "group", "onsets": [0, 2, 4, 6], "velocity": [120, 90, 95, 105] } ],
+      "transforms_allowed": ["rotate", "reverse", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["aksak", "9/8", "balkan", "turkish"], "bpm_range": [90, 200],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "MET.3.3/aksak_11_22322", "name": "Aksak 11/8 (2+2+3+2+2)",
+      "taxonomy": ["MET.3.3", "MET.3.4"],
+      "origin": { "tradition": "Balcanes", "genre": ["aksak"], "context": "composición de 11 en 2 y 3 con el largo central", "sources": ["Brăiloiu 1951/52"] },
+      "status": "H", "verify": false, "cycle_len": 11, "step_value": 0.5, "meter": "11/8", "grouping": [2, 2, 3, 2, 2],
+      "layers": [ { "role": "group", "onsets": [0, 2, 4, 7, 9], "velocity": [120, 90, 105, 90, 95] } ],
+      "transforms_allowed": ["rotate", "reverse", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["aksak", "11/8", "balkan"], "bpm_range": [90, 200],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "MET.3.1/amalgama_5_4", "name": "Amalgama 5/4 (3/4 + 2/4)",
+      "taxonomy": ["MET.3.1"],
+      "origin": { "tradition": "teoría hispana del solfeo", "genre": ["5/4"], "context": "suma de compases que conservan sus acentos", "sources": ["meta-análisis §2.1 MET.3.1"] },
+      "status": "H", "verify": false, "cycle_len": 5, "step_value": 1, "meter": "5/4", "grouping": [3, 2],
+      "layers": [ { "role": "beat", "onsets": [0, 1, 2, 3, 4], "velocity": [120, 70, 70, 100, 70] } ],
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["ethnic", "bassline", "arpeggio", "chords", "others"], "categories": ["world_cycles"],
+      "tags": ["5/4"], "bpm_range": [60, 180],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    }
+  ]
+}

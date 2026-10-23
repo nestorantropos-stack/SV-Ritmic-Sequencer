@@ -1,0 +1,49 @@
+{
+  "family": "colotomy",
+  "name": "Colotomía de gamelan",
+  "notes": "Numeración del informe desde 1 convertida a pasos desde 0. irama multiplica la densidad de elaboración (×2 por nivel) y laya cambia el tempo (CIC.5, §4.8).",
+  "patterns": [
+    {
+      "id": "CIC.5/lancaran", "name": "Lancaran (16 pulsos)",
+      "taxonomy": ["CIC.5", "FOR.2.3", "MET.2.5"],
+      "origin": { "tradition": "Java (gamelan)", "genre": ["gendhing lancaran"], "context": "forma colotómica corta; el gong cierra el ciclo", "sources": ["Sumarsam (Wesleyan)", "Wikipedia: Irama"] },
+      "status": "I", "verify": true, "verify_notes": "Convención estándar; variantes regionales por verificar.",
+      "cycle_len": 16, "step_value": 0.5, "meter": "16/8",
+      "layers": [
+        { "role": "ketuk", "onsets": [0, 2, 4, 6, 8, 10, 12, 14] },
+        { "role": "kenong", "onsets": [3, 7, 11, 15] },
+        { "role": "kempul", "onsets": [5, 9, 13] },
+        { "role": "gong", "onsets": [15], "velocity": [127] }
+      ],
+      "params": { "irama": 0, "laya": "sedeng", "elaboration": true },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["gamelan", "java"], "bpm_range": [60, 160],
+      "repeat_policy": { "mode": "gongan", "default_repeats": 2, "variation_on_last": "gong" }
+    },
+    {
+      "id": "CIC.5/ketawang", "name": "Ketawang (16 pulsos)",
+      "taxonomy": ["CIC.5"],
+      "origin": { "tradition": "Java (gamelan)", "genre": ["gendhing ketawang"], "context": "ciclo de 16 con distribución propia", "sources": ["meta-análisis §2.5 CIC.5"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Distribución de kenong, kempul y ketuk por verificar; solo se fija el gong final.",
+      "cycle_len": 16, "step_value": 0.5, "meter": "16/8",
+      "layers": [ { "role": "gong", "onsets": [15], "velocity": [127] }, { "role": "kenong", "onsets": [] }, { "role": "kempul", "onsets": [] }, { "role": "ketuk", "onsets": [] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others"], "categories": ["world_cycles"],
+      "tags": ["gamelan", "java"],
+      "repeat_policy": { "mode": "gongan", "default_repeats": 2, "variation_on_last": "gong" }
+    },
+    {
+      "id": "CIC.5/ladrang", "name": "Ladrang (32 pulsos)",
+      "taxonomy": ["CIC.5"],
+      "origin": { "tradition": "Java (gamelan)", "genre": ["gendhing ladrang"], "context": "ciclo de 32 con distribución propia", "sources": ["meta-análisis §2.5 CIC.5"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Distribución colotómica por verificar; solo se fija el gong final.",
+      "cycle_len": 32, "step_value": 0.5, "meter": "32/8",
+      "layers": [ { "role": "gong", "onsets": [31], "velocity": [127] }, { "role": "kenong", "onsets": [] }, { "role": "kempul", "onsets": [] }, { "role": "ketuk", "onsets": [] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others"], "categories": ["world_cycles"],
+      "tags": ["gamelan", "java"],
+      "repeat_policy": { "mode": "gongan", "default_repeats": 1, "variation_on_last": "gong" }
+    }
+  ]
+}

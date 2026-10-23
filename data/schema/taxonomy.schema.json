@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "sv-rs/taxonomy.schema.json",
+  "title": "Taxonomía rítmica",
+  "type": "object",
+  "required": ["version", "axes", "destinations", "destination_categories", "status_legend"],
+  "properties": {
+    "version": { "type": "string" },
+    "sources": { "type": "array", "items": { "type": "string" } },
+    "status_legend": { "type": "object" },
+    "axes": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "question", "color", "children"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[A-Z]{3}$" },
+          "name": { "type": "string" },
+          "question": { "type": "string" },
+          "color": { "type": "string", "pattern": "^#[0-9A-Fa-f]{6}$" },
+          "children": { "type": "array", "items": { "$ref": "#/definitions/node" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "destinations": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "name", "polyphony"],
+        "properties": {
+          "id": { "type": "string" }, "name": { "type": "string" }, "polyphony": { "type": "integer", "minimum": 1 },
+          "default_range": { "type": "array", "items": { "type": "integer", "minimum": 0, "maximum": 127 }, "minItems": 2, "maxItems": 2 },
+          "drum_map": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "destination_categories": {
+      "type": "array",
+      "items": {
+        "type": "object", "required": ["id", "name", "destinations", "taxonomy"],
+        "properties": { "id": { "type": "string" }, "name": { "type": "string" }, "destinations": { "type": "array", "items": { "type": "string" } }, "taxonomy": { "type": "array", "items": { "type": "string" } } },
+        "additionalProperties": false
+      }
+    }
+  },
+  "definitions": {
+    "node": {
+      "type": "object",
+      "required": ["id", "name", "definition", "status"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Z]{3}(\\.[0-9]+[a-z]?)+$" },
+        "name": { "type": "string", "minLength": 1 },
+        "definition": { "type": "string", "minLength": 1 },
+        "status": { "enum": ["H", "I", "Hip", "V", "C"] },
+        "verify": { "type": "boolean" },
+        "restricted_use": { "type": "boolean" },
+        "params": { "type": "array", "items": { "type": "string" } },
+        "children": { "type": "array", "items": { "$ref": "#/definitions/node" } }
+      }
+    }
+  }
+}

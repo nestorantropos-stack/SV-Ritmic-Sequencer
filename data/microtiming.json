@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "notes": "Plantillas de microtiempo. 'step_offsets': desplazamiento por paso dentro del pulso, en fracción de paso (−0.5 a +0.5), repetido en cada pulso. 'beat_proportions': duraciones relativas de los pulsos del compás (suman 1), aplicadas como rejilla deformable (MIC.3).",
+  "templates": [
+    { "id": "straight", "name": "Recto", "taxonomy": ["MIC.1.2"], "status": "H", "verify": false, "step_offsets": [0, 0, 0, 0] },
+    { "id": "swing_16_62", "name": "Swing de semicorchea 62 %", "taxonomy": ["MIC.1.1"], "status": "C", "verify": false, "step_offsets": [0, 0.25, 0, 0.25], "notes": "Moda medida en DDT Bass y Bonus_Bass (docs/analisis_corpus_midi.md §3)." },
+    { "id": "samba", "name": "Samba", "taxonomy": ["MIC.2.1"], "status": "H", "verify": true, "step_offsets": [0, 0, -0.08, -0.06], "verify_notes": "Perfil inicial editable del informe; calibrar con mediciones." },
+    { "id": "telespringar", "name": "Telespringar", "taxonomy": ["MIC.2.3"], "status": "H", "verify": false, "beat_proportions": [0.38, 0.34, 0.28], "meter": "3/4" },
+    { "id": "viennese_waltz", "name": "Vals vienés", "taxonomy": ["MIC.2.4"], "status": "I", "verify": true, "beat_proportions": null, "verify_notes": "Segundo pulso adelantado; magnitud por medir. Entrada editable sin valores." },
+    { "id": "jembe_mali", "name": "Jembe de Malí", "taxonomy": ["MIC.2.5"], "status": "I", "verify": true, "step_offsets": null, "verify_notes": "Proporciones de Polak por verificar. Entrada editable sin valores." },
+    { "id": "laid_back", "name": "Laid-back", "taxonomy": ["MIC.2.6"], "status": "H", "verify": false, "global_offset": 0.08, "notes": "Valor de diseño; ajustable por capa (bajo atrás)." },
+    { "id": "push", "name": "Push", "taxonomy": ["MIC.2.6"], "status": "H", "verify": false, "global_offset": -0.06, "notes": "Valor de diseño; ajustable por capa (hat adelante)." }
+  ]
+}

@@ -1,0 +1,737 @@
+{
+ "family": "dub_techno",
+ "name": "Dub techno",
+ "notes": "Rejillas medidas en el corpus DDT (docs/analisis_corpus_midi.md §1–3) más la base del informe RGG.10.2. En el destino Chords, el acorde por defecto es la tríada del grado I del modo elegido en estado fundamental: el corpus usa 0-3-7 sobre la tónica en 170 de 200 eventos.",
+ "patterns": [
+  {
+   "id": "RGG.10.2/dub_techno_base",
+   "name": "Dub techno (base)",
+   "taxonomy": [
+    "RGG.10.2",
+    "GRV.14",
+    "PRO.19"
+   ],
+   "origin": {
+    "tradition": "Berlín, 1993",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "Basic Channel, Chain Reaction, Rhythm & Sound",
+    "attributions": [
+     "Moritz von Oswald",
+     "Mark Ernestus"
+    ],
+    "sources": [
+     "Resident Advisor",
+     "Attack Magazine"
+    ]
+   },
+   "status": "H",
+   "verify": true,
+   "verify_notes": "Posiciones del stab [2,10] propuestas por el informe; el corpus muestra más variedad (véanse los patrones [C] de esta familia).",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "hat",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ]
+    },
+    {
+     "role": "chord",
+     "onsets": [
+      2,
+      10
+     ],
+     "gate": [
+      0.15,
+      0.15
+     ]
+    }
+   ],
+   "fx": {
+    "delay_ratio": "1/8.",
+    "feedback": 0.55
+   },
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "chords",
+    "hihats",
+    "ethnic"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno",
+    "techno",
+    "minimal"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/stab_1_7_15",
+   "name": "Stab: 1, «y» del 2, «y» del 4",
+   "taxonomy": [
+    "RGG.10.2",
+    "ACE.2.2"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "patrón más frecuente del corpus",
+    "sources": [
+     "corpus DDT: Chord_09, 16, 42"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      0,
+      6,
+      14
+     ],
+     "gate": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "velocity": [
+      96,
+      80,
+      84
+     ]
+    }
+   ],
+   "fx": {
+    "delay_ratio": "1/8.",
+    "feedback": 0.5
+   },
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/stab_1_11",
+   "name": "Stab: 1 y «y» del 3",
+   "taxonomy": [
+    "RGG.10.2"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "dos stabs por compás, máximo espacio",
+    "sources": [
+     "corpus DDT: Chord_10"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      0,
+      10
+     ],
+     "gate": [
+      0.5,
+      0.5
+     ]
+    }
+   ],
+   "fx": {
+    "delay_ratio": "1/8.",
+    "feedback": 0.6
+   },
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno",
+    "minimal"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/stab_1_6_11",
+   "name": "Stab: 1, 6, 11 (3+5+…)",
+   "taxonomy": [
+    "RGG.10.2",
+    "ACE.2.4"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "stab desplazado por semicorchea",
+    "sources": [
+     "corpus DDT: Em_26, Dm_21"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      0,
+      5,
+      10
+     ],
+     "gate": [
+      0.5,
+      0.5,
+      0.5
+     ],
+     "velocity": [
+      96,
+      82,
+      86
+     ]
+    }
+   ],
+   "fx": {
+    "delay_ratio": "1/8.",
+    "feedback": 0.5
+   },
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/stab_dense",
+   "name": "Stab denso (seis ataques)",
+   "taxonomy": [
+    "RGG.10.2",
+    "ACE.2.4"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "variante densa con acento tras el pulso 3",
+    "sources": [
+     "corpus DDT: Chord_01"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      0,
+      3,
+      6,
+      9,
+      12,
+      15
+     ],
+     "gate": [
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45,
+      0.45
+     ],
+     "velocity": [
+      90,
+      76,
+      82,
+      104,
+      84,
+      74
+     ]
+    }
+   ],
+   "fx": {
+    "delay_ratio": "1/8.",
+    "feedback": 0.45
+   },
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/stab_8ths",
+   "name": "Stab en corcheas continuas",
+   "taxonomy": [
+    "RGG.10.2",
+    "CIC.1"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "corriente de corcheas con variación de filtro y velocity",
+    "sources": [
+     "corpus DDT: Chord_19"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "chord",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ],
+     "gate": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/pad_colchon",
+   "name": "Colchón de acorde",
+   "taxonomy": [
+    "RGG.10.2",
+    "ACE.1.6"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "acorde largo en canal aparte como colchón",
+    "sources": [
+     "Attack Magazine (tutorial)",
+     "corpus DDT: Chord_02, 31, 38"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "pad",
+     "onsets": [
+      0
+     ],
+     "gate": [
+      4
+     ]
+    }
+   ],
+   "transforms_allowed": [],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno",
+    "ambient"
+   ],
+   "bpm_range": [
+    100,
+    130
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   },
+   "notes": "gate en negras: 4 = un compás entero de 4/4."
+  },
+  {
+   "id": "RGG.10.2/stab_weighted",
+   "name": "Stab generativo (pesos del corpus)",
+   "taxonomy": [
+    "RGG.10.2",
+    "PRO.15",
+    "COG.3.3"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "rejilla generada con probabilidades por paso derivadas del histograma de 51 clips",
+    "sources": [
+     "corpus DDT Chords (histograma §1)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "generator": {
+    "type": "weighted_steps",
+    "step_weights": [
+     41,
+     5,
+     13,
+     9,
+     7,
+     12,
+     14,
+     9,
+     17,
+     7,
+     15,
+     10,
+     12,
+     9,
+     18,
+     2
+    ],
+    "hits_range": [
+     2,
+     5
+    ],
+    "force_first": 0.8,
+    "gate_range": [
+     0.33,
+     0.85
+    ]
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "chords"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "params": {
+    "swing_template": "swing_16_62",
+    "chord": "triad_I_root"
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/bass_offbeat",
+   "name": "Bajo de dub techno en contratiempo",
+   "taxonomy": [
+    "RGG.10.2",
+    "ACE.2.2",
+    "RGG.5.4"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "bajo en el «y» de cada pulso",
+    "sources": [
+     "corpus DDT: Bass_23, Bonus A_120_04"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "bass",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ],
+     "gate": [
+      0.6,
+      0.6,
+      0.6,
+      0.6
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "rotate"
+   ],
+   "destinations": [
+    "bassline"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno",
+    "techno"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "RGG.10.2/bass_swung_16",
+   "name": "Bajo de semicorcheas con swing",
+   "taxonomy": [
+    "RGG.10.2",
+    "MIC.1.1",
+    "CIC.1.1"
+   ],
+   "origin": {
+    "tradition": "dub techno",
+    "genre": [
+     "dub techno"
+    ],
+    "context": "línea de semicorcheas con impares retrasadas un cuarto de paso (≈ 62 %)",
+    "sources": [
+     "corpus DDT: Bass_38_Bb (§2–3)"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "bass",
+     "onsets": [
+      0,
+      1,
+      3,
+      5,
+      7,
+      9,
+      11
+     ],
+     "microtiming": [
+      0,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+     ],
+     "gate": [
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      0.4,
+      1.6
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate"
+   ],
+   "destinations": [
+    "bassline"
+   ],
+   "categories": [
+    "dub_techno"
+   ],
+   "tags": [
+    "dub techno",
+    "deep"
+   ],
+   "bpm_range": [
+    115,
+    128
+   ],
+   "params": {
+    "swing_template": "swing_16_62"
+   },
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  }
+ ]
+}

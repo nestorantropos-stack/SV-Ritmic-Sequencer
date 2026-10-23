@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "notes": "Mapa de golpe → nota MIDI. Las notas de Drum Rack van de C1 = 36 a D#2 = 51 (16 pads). Todos los mapas son editables desde la interfaz; estos son valores de partida. 'timbre' sigue el §1 del informe: 0 grave/dum, 1 agudo/tak, 2 abierto, 3 apagado.",
+  "maps": [
+    {
+      "id": "drum_rack_default", "name": "Drum Rack (16 pads)", "tradition": "genérico",
+      "roles": { "kick": 36, "rim": 37, "snare": 38, "clap": 39, "hat": 42, "hat_pedal": 44, "hat_open": 46, "tom_lo": 41, "tom_mid": 45, "tom_hi": 48, "crash": 49, "ride": 51, "perc_1": 40, "perc_2": 43, "perc_3": 47, "perc_4": 50 }
+    },
+    {
+      "id": "hihats_gm", "name": "Hi-hats (GM)", "tradition": "General MIDI",
+      "roles": { "hat": 42, "hat_pedal": 44, "hat_open": 46, "ride": 51, "ride_bell": 53, "shaker": 70, "tambourine": 54, "cabasa": 69 }
+    },
+    {
+      "id": "gm_percussion", "name": "General MIDI percusión", "tradition": "General MIDI",
+      "roles": {
+        "kick": 36, "rim": 37, "snare": 38, "clap": 39, "hat": 42, "hat_pedal": 44, "hat_open": 46, "tom": 45, "crash": 49, "ride": 51, "ride_bell": 53,
+        "tambourine": 54, "cowbell": 56, "bongo_hi": 60, "bongo_lo": 61, "conga_mute": 62, "conga_open": 63, "conga_lo": 64,
+        "timbale_hi": 65, "timbale_lo": 66, "agogo_hi": 67, "agogo_lo": 68, "cabasa": 69, "maracas": 70, "guiro": 73,
+        "claves": 75, "woodblock_hi": 76, "woodblock_lo": 77, "cuica_mute": 78, "cuica_open": 79, "triangle": 80, "triangle_open": 81, "shaker": 82
+      }
+    },
+    {
+      "id": "latin_rack", "name": "Latin percussion (Drum Rack)", "tradition": "afrolatina",
+      "roles": { "conga_lo": 36, "conga_open": 37, "conga_mute": 38, "bongo_hi": 39, "bongo_lo": 40, "timbale_hi": 41, "timbale_lo": 42, "cowbell": 43, "claves": 44, "guiro": 45, "maracas": 46, "cabasa": 47, "agogo_hi": 48, "agogo_lo": 49, "triangle": 50, "shaker": 51 }
+    },
+    {
+      "id": "dub_kit", "name": "Dub kit (Drum Rack)", "tradition": "reggae / dub",
+      "roles": { "kick": 36, "rim": 37, "snare": 38, "clap": 39, "shaker": 40, "tom": 41, "hat": 42, "tambourine": 43, "hat_pedal": 44, "woodblock": 45, "hat_open": 46, "conga": 47, "fx_siren": 48, "crash": 49, "fx_laser": 50, "ride": 51 }
+    },
+    {
+      "id": "iqa_dum_tak", "name": "Iqa' (dum / tak)", "tradition": "árabe", "by_timbre": true,
+      "timbre": { "0": 36, "1": 38, "2": 37, "3": 39 },
+      "labels": { "0": "dum", "1": "tak", "2": "tak abierto (ka)", "3": "apagado" }
+    },
+    {
+      "id": "tala_bols", "name": "Tala (tali / khali / sam)", "tradition": "indostánica", "by_timbre": true,
+      "timbre": { "0": 36, "1": 38, "2": 37, "3": 39 },
+      "labels": { "0": "bayan grave (sam, tali)", "1": "dayan agudo (khali)", "2": "abierto", "3": "apagado" },
+      "notes": "Mapeo funcional para marcar el ciclo; los bols de tabla no se modelan uno a uno."
+    },
+    {
+      "id": "gamelan_colotomic", "name": "Gamelan colotómico", "tradition": "javanesa / balinesa",
+      "roles": { "gong": 36, "kempul": 38, "kenong": 40, "ketuk": 42, "kempyang": 43, "saron": 48, "peking": 50, "bonang": 52 }
+    },
+    {
+      "id": "cajon_flamenco", "name": "Flamenco (palmas y cajón)", "tradition": "flamenca",
+      "roles": { "cajon_grave": 36, "cajon_agudo": 38, "palma_sorda": 39, "palma_abierta": 40, "jaleo": 41, "taco": 42 }
+    },
+    {
+      "id": "maracatu", "name": "Maracatu de baque virado", "tradition": "Pernambuco", "verify": true,
+      "roles": { "alfaia_grave": 36, "alfaia_aro": 37, "caixa": 38, "tarol": 40, "gongue_grave": 43, "gongue_agudo": 44, "mineiro": 46, "abe": 47 },
+      "notes": "Mapa de roles; los patrones de maracatu están marcados para verificar."
+    },
+    {
+      "id": "candombe", "name": "Candombe", "tradition": "Uruguay", "verify": true,
+      "roles": { "piano_abierto": 36, "piano_apagado": 37, "chico_abierto": 38, "chico_apagado": 39, "repique_abierto": 40, "repique_apagado": 41, "madera": 42 },
+      "notes": "Mapa de roles; los patrones de candombe están marcados para verificar."
+    },
+    {
+      "id": "janggu", "name": "Janggu", "tradition": "coreana", "by_timbre": true,
+      "timbre": { "0": 36, "1": 38, "2": 37, "3": 39 },
+      "labels": { "0": "kung (grave)", "1": "deok (agudo)", "2": "kung-deok (ambos)", "3": "apagado" }
+    }
+  ],
+  "destination_defaults": { "hihats": "hihats_gm", "ethnic": "drum_rack_default", "others": "drum_rack_default" }
+}

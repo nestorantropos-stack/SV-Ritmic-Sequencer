@@ -1,0 +1,20 @@
+node_modules/
+build/*
+!build/.gitkeep
+*.log
+.DS_Store
+Thumbs.db
+
+# Configuración privada, credenciales y análisis locales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+tools/corpus_sources.json
+data/corpus/
+*_debug*.json
+*.als
+*.asd

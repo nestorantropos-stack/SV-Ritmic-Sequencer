@@ -1,0 +1,836 @@
+{
+ "family": "latin_percussion",
+ "name": "Percusión latina (corpus)",
+ "notes": "Rejillas medidas en Latin MIDI drums (docs/analisis_corpus_midi.md §5). Los nombres de estilo que no vienen de una fuente se marcan verify: true.",
+ "patterns": [
+  {
+   "id": "CIC.6.2/bossa_kick",
+   "name": "Bombo de bossa / baião",
+   "taxonomy": [
+    "CIC.6.2",
+    "CIC.3.6",
+    "ACE.2.3"
+   ],
+   "origin": {
+    "tradition": "Brasil",
+    "genre": [
+     "bossa nova",
+     "baião"
+    ],
+    "context": "negra con puntillo y corchea, dos veces por compás",
+    "sources": [
+     "corpus: Azure-Bossa-Nova, Bossa-Nova, Schuld…Bossa-Nova"
+    ]
+   },
+   "status": "C",
+   "verify": true,
+   "verify_notes": "Nombre de estilo por contrastar con fuente pedagógica.",
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      6,
+      8,
+      14
+     ],
+     "velocity": [
+      100,
+      80,
+      100,
+      80
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "bassline"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "bossa",
+    "brasil",
+    "latin"
+   ],
+   "bpm_range": [
+    120,
+    180
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "CIC.3.6/bossa_cross_stick_32",
+   "name": "Cross-stick de bossa (2 compases)",
+   "taxonomy": [
+    "CIC.3.6",
+    "PRO.2"
+   ],
+   "origin": {
+    "tradition": "Brasil",
+    "genre": [
+     "bossa nova"
+    ],
+    "context": "aro cada 6 semicorcheas: ciclo casi uniforme de 32 pasos",
+    "sources": [
+     "corpus: Azure-Bossa-Nova (rim)",
+     "corpus: Schuld…Bossa-Nova (cowbell)"
+    ]
+   },
+   "status": "C",
+   "verify": true,
+   "verify_notes": "Comparar con la bossa clave del informe (CIC.3.6).",
+   "cycle_len": 32,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "grouping": [
+    6,
+    6,
+    6,
+    6,
+    8
+   ],
+   "layers": [
+    {
+     "role": "rim",
+     "onsets": [
+      4,
+      10,
+      16,
+      22,
+      28
+     ]
+    },
+    {
+     "role": "cabasa",
+     "onsets": [
+      2,
+      6,
+      10,
+      14,
+      18,
+      22,
+      26,
+      30
+     ],
+     "velocity": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+     ]
+    },
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      6,
+      8,
+      14,
+      16,
+      22,
+      24,
+      30
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "bossa",
+    "brasil"
+   ],
+   "bpm_range": [
+    120,
+    180
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "CIC.6/cowbell_bell_offbeat",
+   "name": "Cencerro en negras y campana a contratiempo",
+   "taxonomy": [
+    "CIC.6",
+    "ACE.2.2"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin"
+    ],
+    "context": "pulso de cencerro con campana del ride en el «y»",
+    "sources": [
+     "corpus: Latin2, Latin15, Latin24, ethnic5"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "cowbell",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "ride_bell",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ]
+    },
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [
+      3,
+      7,
+      10,
+      13,
+      14
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin"
+   ],
+   "bpm_range": [
+    100,
+    130
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "CIC.6/kick_dotted_per_beat",
+   "name": "Bombo de corchea con puntillo y semicorchea",
+   "taxonomy": [
+    "CIC.6",
+    "ACE.2.3"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin"
+    ],
+    "context": "cada pulso: ataque en la 1.ª y la 4.ª semicorchea",
+    "sources": [
+     "corpus: Latin6, Latin21"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      3,
+      4,
+      7,
+      8,
+      11,
+      12,
+      15
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "ethnic",
+    "bassline"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin"
+   ],
+   "bpm_range": [
+    100,
+    130
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "CIC.6/guiro_scrape",
+   "name": "Güiro",
+   "taxonomy": [
+    "CIC.6",
+    "ACE.2.3"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin",
+     "cumbia",
+     "salsa"
+    ],
+    "context": "raspado de corchea con anticipación final",
+    "sources": [
+     "corpus: LS_4-4_NmlHrdSwg_FullKit_124"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "guiro",
+     "onsets": [
+      2,
+      3,
+      6,
+      7,
+      10,
+      11,
+      13,
+      14
+     ],
+     "velocity": [
+      90,
+      60,
+      90,
+      60,
+      90,
+      60,
+      80,
+      90
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats",
+    "ethnic"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin"
+   ],
+   "bpm_range": [
+    90,
+    130
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "CIC.6/congas_three_strokes",
+   "name": "Congas: abierta, apagada y grave",
+   "taxonomy": [
+    "CIC.6",
+    "ACE.1.5"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin"
+    ],
+    "context": "figura repartida por golpe",
+    "sources": [
+     "corpus: ethnic5"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "conga_open",
+     "onsets": [
+      6,
+      7,
+      14
+     ]
+    },
+    {
+     "role": "conga_mute",
+     "onsets": [
+      3,
+      11
+     ]
+    },
+    {
+     "role": "conga_lo",
+     "onsets": [
+      12
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin",
+    "conga"
+   ],
+   "bpm_range": [
+    100,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "CIC.6/agogo_two_bar",
+   "name": "Agogó (2 compases)",
+   "taxonomy": [
+    "CIC.6",
+    "CIC.2"
+   ],
+   "origin": {
+    "tradition": "afrobrasileña",
+    "genre": [
+     "latin"
+    ],
+    "context": "figura de campana de dos compases",
+    "sources": [
+     "corpus: ethnic5"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 32,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "agogo_lo",
+     "onsets": [
+      0,
+      2,
+      3,
+      4,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      16,
+      18,
+      22,
+      23,
+      24,
+      26,
+      28,
+      30,
+      31
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin",
+    "brasil"
+   ],
+   "bpm_range": [
+    110,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "CIC.6/maracas_ride_layers",
+   "name": "Capas agudas: ride, cabasa y maracas",
+   "taxonomy": [
+    "CIC.6",
+    "MET.2.1"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "bossa nova",
+     "latin"
+    ],
+    "context": "subdivisión continua repartida",
+    "sources": [
+     "corpus: Azure-Bossa-Nova"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 16,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "ride",
+     "onsets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+     ]
+    },
+    {
+     "role": "cabasa",
+     "onsets": [
+      2,
+      6,
+      10,
+      14
+     ]
+    },
+    {
+     "role": "maracas",
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "swing"
+   ],
+   "destinations": [
+    "hihats"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "bossa",
+    "latin"
+   ],
+   "bpm_range": [
+    110,
+    180
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "MET.2.4/latin_6_8_kit",
+   "name": "Kit latino en 6/8",
+   "taxonomy": [
+    "MET.2.4",
+    "SUP.3"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin 6/8"
+    ],
+    "context": "bombo en las corcheas 1, 4 y 6; caja en 3 y 5",
+    "sources": [
+     "corpus: Latin68time1, LS_6-8_FullKit_135"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 6,
+   "step_value": 0.5,
+   "meter": "6/8",
+   "grouping": [
+    3,
+    3
+   ],
+   "layers": [
+    {
+     "role": "kick",
+     "onsets": [
+      0,
+      3,
+      5
+     ]
+    },
+    {
+     "role": "snare",
+     "onsets": [
+      2,
+      4
+     ]
+    },
+    {
+     "role": "hat_open",
+     "onsets": [
+      1,
+      5
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "categories": [
+    "latin_percussion"
+   ],
+   "tags": [
+    "latin",
+    "6/8"
+   ],
+   "bpm_range": [
+    90,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   },
+   "notes": "Rejilla en corcheas (6 pasos)."
+  },
+  {
+   "id": "MET.2.4/bell_12_8",
+   "name": "Campana y woodblock en 12/8",
+   "taxonomy": [
+    "MET.2.4",
+    "CIC.2"
+   ],
+   "origin": {
+    "tradition": "afrolatina",
+    "genre": [
+     "latin 12/8"
+    ],
+    "context": "figura de campana de 12 corcheas (comparar con CIC.2.1)",
+    "sources": [
+     "corpus: LS_12-8_NmlStr_FullKit_142"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 24,
+   "step_value": 0.25,
+   "meter": "12/8",
+   "layers": [
+    {
+     "role": "cowbell",
+     "onsets": [
+      0,
+      2,
+      4,
+      7,
+      10,
+      12,
+      15,
+      17
+     ]
+    },
+    {
+     "role": "woodblock_lo",
+     "onsets": [
+      0,
+      6,
+      10,
+      14,
+      16,
+      22
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate"
+   ],
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "categories": [
+    "latin_percussion",
+    "world_cycles"
+   ],
+   "tags": [
+    "latin",
+    "12/8",
+    "afro"
+   ],
+   "bpm_range": [
+    80,
+    130
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   },
+   "notes": "Rejilla de semicorcheas (24 pasos = 12 corcheas): el cencerro usa posiciones de semicorchea impar."
+  },
+  {
+   "id": "MET.3.3/triangle_9_8",
+   "name": "Triángulo en 9/8",
+   "taxonomy": [
+    "MET.3.3",
+    "MET.3.2"
+   ],
+   "origin": {
+    "tradition": "percusión en métrica aditiva",
+    "genre": [
+     "9/8"
+    ],
+    "context": "figura de triángulo de un pack de percusión latina",
+    "sources": [
+     "corpus: LS_9-8_NmlStr_Triangles_169"
+    ]
+   },
+   "status": "C",
+   "verify": false,
+   "cycle_len": 18,
+   "step_value": 0.25,
+   "meter": "9/8",
+   "layers": [
+    {
+     "role": "triangle",
+     "onsets": [
+      0,
+      2,
+      4,
+      8,
+      10,
+      12,
+      16
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density",
+    "rotate"
+   ],
+   "destinations": [
+    "hihats",
+    "ethnic"
+   ],
+   "categories": [
+    "latin_percussion",
+    "world_cycles"
+   ],
+   "tags": [
+    "9/8",
+    "aksak"
+   ],
+   "bpm_range": [
+    90,
+    140
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "none"
+   }
+  }
+ ]
+}

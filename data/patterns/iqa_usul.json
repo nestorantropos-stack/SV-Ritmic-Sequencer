@@ -1,0 +1,116 @@
+{
+  "family": "iqa_usul",
+  "name": "Iqa' árabe y usul otomano",
+  "notes": "timbre 0 = dum (grave), 1 = tak (agudo). Las transiciones documentadas (baladi ↔ maqsum ↔ malfuf) se guardan en 'transitions' para el modo de cambio de patrón.",
+  "transitions": [
+    { "from": "CIC.4.3.2/baladi", "to": "CIC.4.3.1/maqsum", "note": "modulación frecuente y regreso", "status": "H" },
+    { "from": "CIC.4.3.2/baladi", "to": "CIC.4.3.4/malfuf", "ratio": "2 compases de malfuf por 1 de baladi", "status": "H" }
+  ],
+  "patterns": [
+    {
+      "id": "CIC.4.3.1/maqsum", "name": "Maqsum",
+      "taxonomy": ["CIC.4.3.1", "ACE.1.5"],
+      "origin": { "tradition": "mundo árabe", "genre": ["tarab", "pop árabe", "folclor"], "context": "iqa' de 4/4 más usado", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.5, "meter": "4/4",
+      "layers": [ { "role": "darbuka", "onsets": [0, 1, 3, 4, 6], "timbre": [0, 1, 1, 0, 1] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic", "maqsum"], "bpm_range": [80, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "params": { "ornament_grid": 32 }
+    },
+    {
+      "id": "CIC.4.3.2/baladi", "name": "Baladi / Masmudi saghir",
+      "taxonomy": ["CIC.4.3.2", "ACE.1.5"],
+      "origin": { "tradition": "Egipto, mundo árabe", "genre": ["baladi", "pop árabe"], "context": "doble dum inicial", "sources": ["MaqamWorld: Iqa' Baladi"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.5, "meter": "4/4",
+      "layers": [ { "role": "darbuka", "onsets": [0, 1, 3, 4, 6], "timbre": [0, 0, 1, 0, 1] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic", "baladi"], "bpm_range": [80, 130],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.4.3.3/saidi", "name": "Saidi",
+      "taxonomy": ["CIC.4.3.3", "ACE.1.5"],
+      "origin": { "tradition": "Alto Egipto", "genre": ["saidi"], "context": "danza con bastón", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.5, "meter": "4/4",
+      "layers": [ { "role": "darbuka", "onsets": [0, 1, 3, 4, 6], "timbre": [0, 1, 0, 0, 1] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic", "saidi"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.4.3.4/malfuf", "name": "Malfuf",
+      "taxonomy": ["CIC.4.3.4", "CIC.3.1"],
+      "origin": { "tradition": "mundo árabe", "genre": ["folclor", "entradas de danza"], "context": "2/4 rápido", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.25, "meter": "2/4",
+      "layers": [ { "role": "darbuka", "onsets": [0, 3, 6], "timbre": [0, 1, 1] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic", "malfuf"], "bpm_range": [100, 180],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" },
+      "notes": "Comparte la forma 3+3+2 con el tresillo."
+    },
+    {
+      "id": "CIC.4.3.5/wahda", "name": "Wahda",
+      "taxonomy": ["CIC.4.3.5"],
+      "origin": { "tradition": "mundo árabe", "genre": ["tarab", "taqsim acompañado"], "context": "dum en el pulso 1 con taks escasos", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Golpes tak exactos por verificar (§7 del informe).",
+      "cycle_len": 8, "step_value": 0.5, "meter": "4/4",
+      "layers": [ { "role": "darbuka", "onsets": [0], "timbre": [0] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic"], "bpm_range": [60, 120],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "none" }
+    },
+    {
+      "id": "CIC.4.3.6/fox", "name": "Fox",
+      "taxonomy": ["CIC.4.3.6"],
+      "origin": { "tradition": "mundo árabe", "genre": ["pop árabe"], "context": "2/4 alternado", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": false, "cycle_len": 4, "step_value": 0.5, "meter": "2/4",
+      "layers": [ { "role": "darbuka", "onsets": [0, 1, 2, 3], "timbre": [0, 1, 0, 1] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["arabic"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.4.3.7/samai_thaqil", "name": "Sama'i thaqil (10/8)",
+      "taxonomy": ["CIC.4.3.7", "MET.3.2"],
+      "origin": { "tradition": "mundo árabe y otomano", "genre": ["sama'i", "muwashshah"], "context": "forma instrumental", "sources": ["MaqamWorld"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Agrupamiento 3+2+2+3 documentado; golpes dum/tak por verificar. Solo se marcan los inicios de grupo.",
+      "cycle_len": 10, "step_value": 0.5, "meter": "10/8", "grouping": [3, 2, 2, 3],
+      "layers": [ { "role": "darbuka", "onsets": [0, 3, 5, 7], "timbre": [0, 1, 1, 0] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["arabic", "ottoman", "10/8"], "bpm_range": [60, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "none" }
+    },
+    {
+      "id": "CIC.4.4/aksak_usul", "name": "Usul aksak (9/8)",
+      "taxonomy": ["CIC.4.4", "MET.3.3"],
+      "origin": { "tradition": "Turquía otomana", "genre": ["usul", "música clásica otomana"], "context": "2+2+2+3", "sources": ["meta-análisis §2.5 CIC.4.4"] },
+      "status": "I", "verify": false, "cycle_len": 9, "step_value": 0.5, "meter": "9/8", "grouping": [2, 2, 2, 3],
+      "layers": [ { "role": "darbuka", "onsets": [0, 2, 4, 6], "timbre": [0, 1, 1, 0] } ],
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "others", "arpeggio", "bassline"], "categories": ["world_cycles"],
+      "tags": ["ottoman", "aksak", "9/8"], "bpm_range": [80, 160],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "notes": "Timbres de inicio de grupo como propuesta de diseño (inicio = dum)."
+    },
+    {
+      "id": "CIC.4.4/curcuna", "name": "Usul curcuna (10/8)",
+      "taxonomy": ["CIC.4.4", "MET.3.2"],
+      "origin": { "tradition": "Turquía otomana", "genre": ["usul"], "context": "3+2+2+3", "sources": ["meta-análisis §2.5 CIC.4.4"] },
+      "status": "I", "verify": false, "cycle_len": 10, "step_value": 0.5, "meter": "10/8", "grouping": [3, 2, 2, 3],
+      "layers": [ { "role": "darbuka", "onsets": [0, 3, 5, 7], "timbre": [0, 1, 1, 0] } ],
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "others", "arpeggio", "bassline"], "categories": ["world_cycles"],
+      "tags": ["ottoman", "10/8"], "bpm_range": [80, 160],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "notes": "Timbres de inicio de grupo como propuesta de diseño (inicio = dum)."
+    }
+  ]
+}

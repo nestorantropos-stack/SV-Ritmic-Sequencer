@@ -1,0 +1,1810 @@
+{
+ "version": "1.0.0",
+ "sources": [
+  "docs/meta_analisis_ritmo_max4live.md",
+  "docs/clasificacion_ritmica_reggae_dub_steppers.md",
+  "docs/analisis_corpus_midi.md"
+ ],
+ "status_legend": {
+  "H": "Hecho documentado en la fuente citada",
+  "I": "Interpretación analítica compartida en la literatura",
+  "Hip": "Hipótesis abierta",
+  "V": "Dato por verificar en una transcripción o fuente primaria",
+  "C": "Medido en el corpus MIDI de referencia (packs); describe una práctica de programación"
+ },
+ "axes": [
+  {
+   "id": "MET",
+   "name": "Métrica",
+   "question": "¿Cómo se organiza y se divide el tiempo?",
+   "color": "#4FC3F7",
+   "children": [
+    {
+     "id": "MET.1",
+     "name": "Pulso, tactus y tempo",
+     "status": "H",
+     "definition": "Serie isócrona que el oyente infiere y a la que sincroniza el cuerpo; el tactus es el nivel más saliente y el tempo su velocidad. Elementos métricos entre ~100 ms y ~2 s.",
+     "params": [
+      "bpm",
+      "tactus_level"
+     ]
+    },
+    {
+     "id": "MET.2",
+     "name": "Jerarquía métrica",
+     "status": "H",
+     "definition": "Pulsos periódicos anidados: subdivisión, pulso, compás, hipercompás.",
+     "params": [
+      "beats_per_bar",
+      "beat_division",
+      "hyper_len"
+     ],
+     "children": [
+      {
+       "id": "MET.2.1",
+       "name": "Binaria",
+       "status": "H",
+       "definition": "Cada nivel se divide en 2 (2/4, 4/4)."
+      },
+      {
+       "id": "MET.2.2",
+       "name": "Ternaria",
+       "status": "H",
+       "definition": "Compás de 3 pulsos (3/4: vals, mazurca, jota, sevillanas)."
+      },
+      {
+       "id": "MET.2.3",
+       "name": "Cuaternaria",
+       "status": "H",
+       "definition": "4 pulsos con jerarquía fuerte, débil, semifuerte, débil."
+      },
+      {
+       "id": "MET.2.4",
+       "name": "Compuesta",
+       "status": "H",
+       "definition": "El pulso se divide en 3 (6/8, 9/8, 12/8)."
+      },
+      {
+       "id": "MET.2.5",
+       "name": "Hipermetro",
+       "status": "H",
+       "definition": "Frases de 2, 4, 8 y 16 compases (Cone, Rothstein); rige la forma de la música electrónica de baile."
+      }
+     ]
+    },
+    {
+     "id": "MET.3",
+     "name": "Compases aditivos y no isócronos",
+     "status": "H",
+     "definition": "Compases formados por unidades desiguales, típicamente de 2 y 3.",
+     "params": [
+      "grouping",
+      "unit"
+     ],
+     "children": [
+      {
+       "id": "MET.3.1",
+       "name": "Amalgama",
+       "status": "H",
+       "definition": "Suma de compases de igual denominador que conservan sus acentos (5/4 = 3/4 + 2/4)."
+      },
+      {
+       "id": "MET.3.2",
+       "name": "Compás de tiempos desiguales",
+       "status": "H",
+       "definition": "Un único compás con pulsos de distinta duración (7/8 = 2+2+3)."
+      },
+      {
+       "id": "MET.3.3",
+       "name": "Aksak",
+       "status": "H",
+       "definition": "Ritmo con dos unidades, breve y larga, en proporción 2:3 (Brăiloiu)."
+      },
+      {
+       "id": "MET.3.4",
+       "name": "Métrica no isócrona (NI-meter)",
+       "status": "H",
+       "definition": "Jerarquía con pulsos de dos o más duraciones, organizada por máxima uniformidad (London)."
+      },
+      {
+       "id": "MET.3.5",
+       "name": "Ritmo aditivo / divisivo",
+       "status": "H",
+       "definition": "El divisivo subdivide una duración; el aditivo suma unidades desiguales (Sachs). Términos usados de forma confusa (London)."
+      }
+     ]
+    },
+    {
+     "id": "MET.4",
+     "name": "Ritmo libre y métricas flexibles",
+     "status": "H",
+     "definition": "Duraciones sin pulso isócrono o con pulso flexible.",
+     "params": [
+      "pulse_strength",
+      "duration_set"
+     ],
+     "children": [
+      {
+       "id": "MET.4.1",
+       "name": "Ritmo libre / no medido",
+       "status": "H",
+       "definition": "Duraciones sin pulso isócrono (canto llano, alap, taqsim, baguala)."
+      },
+      {
+       "id": "MET.4.2",
+       "name": "Parlando-rubato y tempo giusto",
+       "status": "H",
+       "definition": "Canto ligado al habla frente a canto medido y bailable (Bartók)."
+      },
+      {
+       "id": "MET.4.3",
+       "name": "Giusto silábico",
+       "status": "H",
+       "definition": "Cada sílaba toma una de dos duraciones en proporción 1:2 (Brăiloiu)."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ACE",
+   "name": "Acentuación",
+   "question": "¿Qué posiciones reciben peso y por qué medio?",
+   "color": "#FF8A65",
+   "children": [
+    {
+     "id": "ACE.1",
+     "name": "Fuentes del acento",
+     "status": "H",
+     "definition": "Medios sonoros que dan peso a una posición; Lerdahl y Jackendoff los agrupan en fenoménico, estructural y métrico.",
+     "params": [
+      "accent_matrix"
+     ],
+     "children": [
+      {
+       "id": "ACE.1.1",
+       "name": "Métrico",
+       "status": "H",
+       "definition": "Peso por posición en la jerarquía.",
+       "params": [
+        "velocity_base"
+       ]
+      },
+      {
+       "id": "ACE.1.2",
+       "name": "Dinámico",
+       "status": "H",
+       "definition": "Peso por intensidad.",
+       "params": [
+        "velocity"
+       ]
+      },
+      {
+       "id": "ACE.1.3",
+       "name": "Agógico",
+       "status": "H",
+       "definition": "Peso por duración o leve retraso.",
+       "params": [
+        "gate",
+        "microtiming"
+       ]
+      },
+      {
+       "id": "ACE.1.4",
+       "name": "Tónico",
+       "status": "H",
+       "definition": "Peso por altura: picos y saltos de octava.",
+       "params": [
+        "transpose"
+       ]
+      },
+      {
+       "id": "ACE.1.5",
+       "name": "Tímbrico",
+       "status": "H",
+       "definition": "Peso por cambio de color.",
+       "params": [
+        "cc_filter",
+        "timbre"
+       ]
+      },
+      {
+       "id": "ACE.1.6",
+       "name": "Armónico / textural",
+       "status": "H",
+       "definition": "Peso por cambio de acorde o de densidad.",
+       "params": [
+        "chord_change"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "ACE.2",
+     "name": "Desplazamiento del acento",
+     "status": "H",
+     "definition": "Ataques que trasladan el peso a posiciones débiles.",
+     "params": [
+      "shift_steps",
+      "tie",
+      "level"
+     ],
+     "children": [
+      {
+       "id": "ACE.2.1",
+       "name": "Síncopa (hispana)",
+       "status": "H",
+       "definition": "Ataque en parte débil que se prolonga sobre la parte fuerte siguiente."
+      },
+      {
+       "id": "ACE.2.2",
+       "name": "Contratiempo",
+       "status": "H",
+       "definition": "Ataque en parte débil precedido de silencio en la fuerte; base del skank y del hi-hat abierto del house."
+      },
+      {
+       "id": "ACE.2.3",
+       "name": "Anticipación",
+       "status": "H",
+       "definition": "El ataque llega antes del tiempo fuerte y lo ocupa (tumbao, pushes de acordes)."
+      },
+      {
+       "id": "ACE.2.4",
+       "name": "Síncopa amplia (syncopation)",
+       "status": "H",
+       "definition": "Ataque en posición débil seguido de silencio en posición más fuerte; definición de los estudios de groove."
+      }
+     ]
+    },
+    {
+     "id": "ACE.3",
+     "name": "Inicio y cierre de frase",
+     "status": "H",
+     "definition": "Relación del comienzo y el final de la frase con el tiempo fuerte.",
+     "params": [
+      "phrase_offset",
+      "downbeat_mute"
+     ],
+     "children": [
+      {
+       "id": "ACE.3.1",
+       "name": "Tético",
+       "status": "H",
+       "definition": "La frase empieza en el tiempo fuerte."
+      },
+      {
+       "id": "ACE.3.2",
+       "name": "Anacrúsico",
+       "status": "H",
+       "definition": "Empieza con notas previas al tiempo fuerte."
+      },
+      {
+       "id": "ACE.3.3",
+       "name": "Acéfalo",
+       "status": "H",
+       "definition": "El tiempo fuerte inicial es silencio."
+      },
+      {
+       "id": "ACE.3.4",
+       "name": "Final masculino / femenino",
+       "status": "H",
+       "definition": "La frase termina en tiempo fuerte o débil."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "SUP",
+   "name": "Superposición",
+   "question": "¿Cómo conviven varias capas?",
+   "color": "#BA68C8",
+   "children": [
+    {
+     "id": "SUP.1",
+     "name": "Polirritmia",
+     "status": "H",
+     "definition": "Capas con agrupamientos distintos dentro de un mismo ciclo, que coinciden periódicamente.",
+     "params": [
+      "ratio_a",
+      "ratio_b",
+      "cycle_len"
+     ],
+     "children": [
+      {
+       "id": "SUP.1.1",
+       "name": "3:2",
+       "status": "H",
+       "definition": "Tres contra dos sobre 6 pulsos."
+      },
+      {
+       "id": "SUP.1.2",
+       "name": "4:3",
+       "status": "H",
+       "definition": "Cuatro contra tres sobre 12 pulsos."
+      },
+      {
+       "id": "SUP.1.3",
+       "name": "Contramétrica (Arom)",
+       "status": "H",
+       "definition": "Figura cíclica que contradice sistemáticamente el pulso de la danza."
+      },
+      {
+       "id": "SUP.1.4",
+       "name": "Cross-rhythm (Jones)",
+       "status": "H",
+       "definition": "Ambas capas tienen estatus de pulso."
+      }
+     ]
+    },
+    {
+     "id": "SUP.2",
+     "name": "Polimetría",
+     "status": "H",
+     "definition": "Ciclos de distinta longitud superpuestos que se realinean cada mcm de sus longitudes. Agawu discute su aplicación a la música africana.",
+     "params": [
+      "layer_len"
+     ],
+     "children": [
+      {
+       "id": "SUP.2.1",
+       "name": "Ciclos de longitud distinta",
+       "status": "H",
+       "definition": "16 contra 12 se realinean a los 48 pasos; 16 contra 5, a los 80."
+      },
+      {
+       "id": "SUP.2.2",
+       "name": "Compases distintos simultáneos",
+       "status": "H",
+       "definition": "3/4 contra 4/4."
+      }
+     ]
+    },
+    {
+     "id": "SUP.3",
+     "name": "Hemiola y sesquiáltera",
+     "status": "H",
+     "definition": "Proporción 3:2 aplicada de forma sucesiva (6/8 y 3/4 alternados) o simultánea.",
+     "params": [
+      "mode",
+      "alternation_pattern"
+     ],
+     "children": [
+      {
+       "id": "SUP.3.1",
+       "name": "Sucesiva",
+       "status": "H",
+       "definition": "Compás en 6/8 seguido de compás en 3/4."
+      },
+      {
+       "id": "SUP.3.2",
+       "name": "Simultánea (birritmia)",
+       "status": "H",
+       "definition": "Melodía en 6/8 sobre bombo en 3/4 (zamba, chacarera)."
+      }
+     ]
+    },
+    {
+     "id": "SUP.4",
+     "name": "Hoquetus y entrelazado",
+     "status": "H",
+     "definition": "Una línea repartida entre varias voces que se completan.",
+     "params": [
+      "voices",
+      "rule"
+     ],
+     "children": [
+      {
+       "id": "SUP.4.1",
+       "name": "Hoquetus",
+       "status": "H",
+       "definition": "Sonidos aislados aportados por varios ejecutantes (ars antiqua, banda-linda, aka)."
+      },
+      {
+       "id": "SUP.4.2",
+       "name": "Kotekan balinés",
+       "status": "H",
+       "definition": "Polos (sobre el pulso) y sangsih (entre pulsos) forman una figura rápida continua."
+      },
+      {
+       "id": "SUP.4.3",
+       "name": "Siku andino (ira/arka)",
+       "status": "H",
+       "definition": "Dos mitades del instrumento alternan notas para completar la melodía."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "MIC",
+   "name": "Microtiempo y expresión",
+   "question": "¿Dónde cae cada ataque respecto de la rejilla?",
+   "color": "#FFF176",
+   "children": [
+    {
+     "id": "MIC.1",
+     "name": "Subdivisión desigual",
+     "status": "H",
+     "definition": "Subdivisiones largas y cortas alternadas.",
+     "children": [
+      {
+       "id": "MIC.1.1",
+       "name": "Swing / shuffle",
+       "status": "H",
+       "definition": "Corcheas o semicorcheas largas y cortas; la proporción crece a tempo lento y tiende a 1:1 a tempo rápido (Friberg y Sundström).",
+       "params": [
+        "ratio",
+        "swing_level",
+        "tempo_coupling"
+       ]
+      },
+      {
+       "id": "MIC.1.2",
+       "name": "Straight",
+       "status": "H",
+       "definition": "Subdivisión igual 1:1."
+      }
+     ]
+    },
+    {
+     "id": "MIC.2",
+     "name": "Plantillas sistemáticas de microtiempo",
+     "status": "H",
+     "definition": "Desviaciones estructurales propias de un estilo, presentes también en el cuerpo de músicos y bailarines.",
+     "params": [
+      "template"
+     ],
+     "children": [
+      {
+       "id": "MIC.2.1",
+       "name": "Samba",
+       "status": "H",
+       "definition": "Anticipación sistemática de la 3.ª y 4.ª semicorchea del pulso; perfil numérico por calibrar.",
+       "verify": true
+      },
+      {
+       "id": "MIC.2.2",
+       "name": "Samba, detalle espectral (Naveda)",
+       "status": "H",
+       "definition": "Leve retraso del grave en la primera semicorchea y arcos de tempo en frases de 2 y 4 pulsos."
+      },
+      {
+       "id": "MIC.2.3",
+       "name": "Telespringar noruego",
+       "status": "H",
+       "definition": "Compás de tres pulsos Largo, Medio, Corto en proporción media 38:34:28."
+      },
+      {
+       "id": "MIC.2.4",
+       "name": "Vals vienés",
+       "status": "I",
+       "definition": "Segundo pulso adelantado; magnitud por medir.",
+       "verify": true
+      },
+      {
+       "id": "MIC.2.5",
+       "name": "Jembe de Malí (Polak)",
+       "status": "I",
+       "definition": "Subdivisiones no isócronas del pulso; proporciones por verificar.",
+       "verify": true
+      },
+      {
+       "id": "MIC.2.6",
+       "name": "Laid-back / push",
+       "status": "H",
+       "definition": "Colocación sistemática detrás o delante del pulso por instrumento (Danielsen; Iyer)."
+      },
+      {
+       "id": "MIC.2.7",
+       "name": "Maracatu",
+       "status": "H",
+       "definition": "Perfiles que varían a lo largo de la pieza en caixa y tarol, según el instrumento de referencia."
+      }
+     ]
+    },
+    {
+     "id": "MIC.3",
+     "name": "Rejillas no isócronas como estructura",
+     "status": "H",
+     "definition": "Modelo de Sioros: rejillas no isócronas desde pulsos isócronos dentro de una estructura polirrítmica; implementado como rejilla deformable.",
+     "params": [
+      "grid_positions"
+     ]
+    },
+    {
+     "id": "MIC.4",
+     "name": "Discrepancias participativas",
+     "status": "H",
+     "definition": "Pequeñas desviaciones de tiempo y textura que dan poder participativo (Keil); Berger discute su automatismo. Humanizador browniano por capa.",
+     "params": [
+      "sigma_ms",
+      "bias_ms",
+      "drift"
+     ]
+    },
+    {
+     "id": "MIC.5",
+     "name": "Rubato y tempo flexible",
+     "status": "H",
+     "definition": "Flexión del tiempo de una capa o del conjunto.",
+     "children": [
+      {
+       "id": "MIC.5.1",
+       "name": "Rubato chopiniano",
+       "status": "H",
+       "definition": "La melodía se desplaza sobre un acompañamiento estable."
+      },
+      {
+       "id": "MIC.5.2",
+       "name": "Rubato global",
+       "status": "H",
+       "definition": "El tempo entero se flexiona."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "CIC",
+   "name": "Ciclo y periodicidad",
+   "question": "¿Qué figura recurrente sostiene el tiempo?",
+   "color": "#81C784",
+   "children": [
+    {
+     "id": "CIC.1",
+     "name": "Ostinato y riff",
+     "status": "H",
+     "definition": "Figura repetida de forma persistente; riff en jazz, rock y funk.",
+     "children": [
+      {
+       "id": "CIC.1.1",
+       "name": "Ostinato de subdivisión continua",
+       "status": "I",
+       "definition": "Corriente de semicorcheas sobre four-on-the-floor con acentos por altura y filtro (bajo de Moroder); contorno por verificar.",
+       "verify": true
+      }
+     ]
+    },
+    {
+     "id": "CIC.2",
+     "name": "Timeline / patrón guía",
+     "status": "H",
+     "definition": "Figura de forma distintiva y duración modesta tocada como ostinato en una pieza de danza (Agawu).",
+     "children": [
+      {
+       "id": "CIC.2.1",
+       "name": "Standard pattern (12 pulsos)",
+       "status": "H",
+       "definition": "Ewe/yoruba: onsets [0,2,4,5,7,9,11], perfil ⟨2212221⟩."
+      }
+     ]
+    },
+    {
+     "id": "CIC.3",
+     "name": "Familia del tresillo y la clave",
+     "status": "H",
+     "definition": "Patrones afrocaribeños de 8 y 16 pasos; la binarización (Pérez Fernández) es una hipótesis influyente.",
+     "params": [
+      "rotation",
+      "binarize_rounding"
+     ],
+     "children": [
+      {
+       "id": "CIC.3.1",
+       "name": "Tresillo (3+3+2)",
+       "status": "H",
+       "definition": "8 pasos, onsets [0,3,6]."
+      },
+      {
+       "id": "CIC.3.2",
+       "name": "Habanera",
+       "status": "H",
+       "definition": "8 pasos, onsets [0,3,4,6]."
+      },
+      {
+       "id": "CIC.3.3",
+       "name": "Cinquillo",
+       "status": "H",
+       "definition": "8 pasos, onsets [0,2,3,5,6]."
+      },
+      {
+       "id": "CIC.3.4",
+       "name": "Son clave 3-2",
+       "status": "H",
+       "definition": "16 pasos, onsets [0,3,6,10,12]."
+      },
+      {
+       "id": "CIC.3.5",
+       "name": "Rumba clave 3-2",
+       "status": "H",
+       "definition": "16 pasos, onsets [0,3,7,10,12]."
+      },
+      {
+       "id": "CIC.3.6",
+       "name": "Bossa clave",
+       "status": "H",
+       "definition": "16 pasos, onsets [0,3,6,10,13]."
+      },
+      {
+       "id": "CIC.3.7",
+       "name": "Claves 2-3",
+       "status": "H",
+       "definition": "Rotación de 8 pasos de la 3-2."
+      }
+     ]
+    },
+    {
+     "id": "CIC.4",
+     "name": "Sistemas cíclicos de tradiciones letradas",
+     "status": "H",
+     "definition": "Ciclos con teoría propia: tala, iqa', usul, jangdan.",
+     "children": [
+      {
+       "id": "CIC.4.1",
+       "name": "Tala indostánica",
+       "status": "H",
+       "definition": "Ciclos con vibhag, tali (palmada) y khali (vacío); laya vilambit, madhya, drut; tihai que aterriza en sam.",
+       "params": [
+        "tala",
+        "laya"
+       ]
+      },
+      {
+       "id": "CIC.4.2",
+       "name": "Tala carnática (suladi sapta)",
+       "status": "H",
+       "definition": "Siete familias de angas (laghu, drutam, anudrutam) × cinco jatis × gati: 35 talas y 175 combinaciones.",
+       "params": [
+        "family",
+        "jati",
+        "gati"
+       ]
+      },
+      {
+       "id": "CIC.4.3",
+       "name": "Iqa' árabe",
+       "status": "H",
+       "definition": "Ciclos de dum (grave) y tak (agudo) que el percusionista ornamenta.",
+       "children": [
+        {
+         "id": "CIC.4.3.1",
+         "name": "Maqsum",
+         "status": "H",
+         "definition": "4/4, 8 pasos: D T . T D . T ."
+        },
+        {
+         "id": "CIC.4.3.2",
+         "name": "Baladi / Masmudi saghir",
+         "status": "H",
+         "definition": "4/4, 8 pasos: D D . T D . T ."
+        },
+        {
+         "id": "CIC.4.3.3",
+         "name": "Saidi",
+         "status": "H",
+         "definition": "4/4, 8 pasos: D T . D D . T ."
+        },
+        {
+         "id": "CIC.4.3.4",
+         "name": "Malfuf",
+         "status": "H",
+         "definition": "2/4, 8 pasos: D . . T . . T ."
+        },
+        {
+         "id": "CIC.4.3.5",
+         "name": "Wahda",
+         "status": "H",
+         "definition": "4/4: dum en el pulso 1 con taks escasos; taks por verificar.",
+         "verify": true
+        },
+        {
+         "id": "CIC.4.3.6",
+         "name": "Fox",
+         "status": "H",
+         "definition": "2/4, 4 pasos: D T D T."
+        },
+        {
+         "id": "CIC.4.3.7",
+         "name": "Sama'i thaqil",
+         "status": "H",
+         "definition": "10/8 con agrupamiento 3+2+2+3; golpes por verificar.",
+         "verify": true
+        }
+       ]
+      },
+      {
+       "id": "CIC.4.4",
+       "name": "Usul otomano",
+       "status": "H",
+       "definition": "Ciclos compartidos con el repertorio árabe: aksak 9/8 = 2+2+2+3, curcuna 10/8 = 3+2+2+3."
+      },
+      {
+       "id": "CIC.4.5",
+       "name": "Jangdan coreano",
+       "status": "H",
+       "definition": "Patrón cíclico del janggu: jinyangjo (24), jungmori (12), semachi, eotmori (10/8), jajinmori (12/8)."
+      }
+     ]
+    },
+    {
+     "id": "CIC.5",
+     "name": "Colotomía (gamelan)",
+     "status": "H",
+     "definition": "Los gongs marcan subdivisiones jerárquicas del gongan; el golpe principal llega al final del ciclo. Irama multiplica la densidad de elaboración; laya cambia el tempo.",
+     "params": [
+      "form",
+      "irama",
+      "laya"
+     ]
+    },
+    {
+     "id": "CIC.6",
+     "name": "Ciclos afroamericanos y criollos",
+     "status": "H",
+     "definition": "Patrones de géneros del Caribe y Sudamérica.",
+     "children": [
+      {
+       "id": "CIC.6.1",
+       "name": "Dembow",
+       "status": "H",
+       "definition": "Bombo [0,4,8,12]; caja [3,6,11,14] en 16."
+      },
+      {
+       "id": "CIC.6.2",
+       "name": "Samba",
+       "status": "H",
+       "definition": "Surdo con acento en el pulso 2 de 2/4; tamborim por verificar."
+      },
+      {
+       "id": "CIC.6.3",
+       "name": "Maracatu de baque virado",
+       "status": "H",
+       "definition": "Alfaia, gonguê (función de clave), caixa, tarol, mineiro, abê; toques martelo, luanda, arrastão, baque parado; viradas. Patrones por verificar."
+      },
+      {
+       "id": "CIC.6.4",
+       "name": "Candombe",
+       "status": "H",
+       "definition": "Chico, repique y piano, con madera en el casco; patrones por verificar."
+      },
+      {
+       "id": "CIC.6.5",
+       "name": "Cumbia",
+       "status": "H",
+       "definition": "Llamador en contratiempo, alegre improvisando, guacharaca en corcheas."
+      },
+      {
+       "id": "CIC.6.6",
+       "name": "Festejo y landó",
+       "status": "H",
+       "definition": "6/8 y 12/8 con cajón; patrones por verificar."
+      },
+      {
+       "id": "CIC.6.7",
+       "name": "Huayno",
+       "status": "H",
+       "definition": "2/4 con célula corchea y dos semicorcheas."
+      }
+     ]
+    },
+    {
+     "id": "CIC.7",
+     "name": "Compás flamenco",
+     "status": "H",
+     "definition": "Ciclo de 12 con acentos en 3, 6, 8, 10 y 12 (3+3+2+2+2); la rotación convierte la soleá en seguiriya.",
+     "params": [
+      "start_offset"
+     ]
+    },
+    {
+     "id": "CIC.8",
+     "name": "Ciclos sesquiálteros sudamericanos",
+     "status": "H",
+     "definition": "Cueca, tonada, zamba, chacarera, joropo y son jarocho alternan o superponen 6/8 y 3/4.",
+     "params": [
+      "mode",
+      "alternation_pattern"
+     ]
+    },
+    {
+     "id": "CIC.9",
+     "name": "Kultrún mapuche",
+     "status": "H",
+     "restricted_use": true,
+     "definition": "Tambor ceremonial de la machi. Se incorpora solo como principio estructural (ciclo de cuatro, golpe y sacudida); las transcripciones citadas por Grebe no se consultaron."
+    }
+   ]
+  },
+  {
+   "id": "PRO",
+   "name": "Procedimientos compositivos",
+   "question": "¿Qué operación transforma el material?",
+   "color": "#F06292",
+   "children": [
+    {
+     "id": "PRO.1",
+     "name": "Ritmo euclidiano",
+     "status": "H",
+     "definition": "E(k,n): k ataques repartidos en n pasos de la forma más uniforme (Toussaint).",
+     "params": [
+      "k",
+      "n",
+      "rotation"
+     ]
+    },
+    {
+     "id": "PRO.2",
+     "name": "Máxima uniformidad",
+     "status": "H",
+     "definition": "Distribución más pareja posible de k en n; converge con E(k,n).",
+     "params": [
+      "k",
+      "n"
+     ]
+    },
+    {
+     "id": "PRO.3",
+     "name": "Modos rítmicos",
+     "status": "H",
+     "definition": "Seis patrones de pies métricos largo/breve (Notre-Dame, Garlandia).",
+     "params": [
+      "mode"
+     ]
+    },
+    {
+     "id": "PRO.4",
+     "name": "Isorritmia",
+     "status": "H",
+     "definition": "Talea rítmica independiente del color de alturas; los ciclos se desfasan.",
+     "params": [
+      "talea",
+      "color"
+     ]
+    },
+    {
+     "id": "PRO.5",
+     "name": "Valor añadido",
+     "status": "H",
+     "definition": "Valor breve agregado mediante nota, silencio o puntillo (Messiaen).",
+     "params": [
+      "position",
+      "value"
+     ]
+    },
+    {
+     "id": "PRO.6",
+     "name": "Ritmo no retrogradable",
+     "status": "H",
+     "definition": "Palíndromo rítmico en torno a un valor central.",
+     "params": [
+      "half",
+      "center"
+     ]
+    },
+    {
+     "id": "PRO.7",
+     "name": "Aumentación / disminución",
+     "status": "H",
+     "definition": "Multiplicar duraciones por un factor.",
+     "params": [
+      "factor"
+     ]
+    },
+    {
+     "id": "PRO.8",
+     "name": "Personajes rítmicos",
+     "status": "H",
+     "definition": "Una célula crece, otra decrece, otra permanece.",
+     "params": [
+      "cells"
+     ]
+    },
+    {
+     "id": "PRO.9",
+     "name": "Modulación métrica",
+     "status": "H",
+     "definition": "Nuevo tempo = tempo × (valor común viejo / nuevo); autoría del término por verificar.",
+     "params": [
+      "ratio"
+     ],
+     "verify": true
+    },
+    {
+     "id": "PRO.10",
+     "name": "Proceso de fase",
+     "status": "H",
+     "definition": "Dos patrones idénticos a tempos levemente distintos (Reich).",
+     "params": [
+      "drift_ratio"
+     ]
+    },
+    {
+     "id": "PRO.11",
+     "name": "Desplazamiento discreto",
+     "status": "H",
+     "definition": "Una capa avanza un paso cada N repeticiones (Clapping Music).",
+     "params": [
+      "shift_every"
+     ]
+    },
+    {
+     "id": "PRO.12",
+     "name": "Canon de tempo",
+     "status": "H",
+     "definition": "Voces en proporciones fijas de tempo, incluso irracionales (Nancarrow).",
+     "params": [
+      "ratios"
+     ]
+    },
+    {
+     "id": "PRO.13",
+     "name": "Serialización de duraciones",
+     "status": "H",
+     "definition": "Serie de valores permutada (Messiaen, Boulez).",
+     "params": [
+      "series",
+      "permutation"
+     ]
+    },
+    {
+     "id": "PRO.14",
+     "name": "Rotación, retrogradación, inversión",
+     "status": "H",
+     "definition": "Operaciones de collar sobre el patrón (Toussaint).",
+     "params": [
+      "rot",
+      "retro",
+      "complement"
+     ]
+    },
+    {
+     "id": "PRO.15",
+     "name": "Variación de densidad",
+     "status": "H",
+     "definition": "Añadir o quitar ataques según peso métrico.",
+     "params": [
+      "density"
+     ]
+    },
+    {
+     "id": "PRO.16",
+     "name": "Tihai / cadencia triple",
+     "status": "H",
+     "definition": "Frase ×3 que aterriza en el inicio del ciclo.",
+     "params": [
+      "P",
+      "G"
+     ]
+    },
+    {
+     "id": "PRO.17",
+     "name": "Viradas y fills",
+     "status": "H",
+     "definition": "Variación que rompe la repetición e introduce un nuevo patrón.",
+     "params": [
+      "every_n_bars",
+      "pool"
+     ]
+    },
+    {
+     "id": "PRO.18",
+     "name": "Unificación altura–ritmo",
+     "status": "H",
+     "definition": "Duraciones tratadas como frecuencias subaudibles (Stockhausen).",
+     "params": [
+      "base_hz"
+     ]
+    },
+    {
+     "id": "PRO.19",
+     "name": "Ritmo de delay (dub)",
+     "status": "H",
+     "definition": "El eco a corchea con puntillo genera un ritmo derivado.",
+     "params": [
+      "delay_ratio",
+      "feedback"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "FOR",
+   "name": "Forma temporal y tempo",
+   "question": "¿Cómo evoluciona la velocidad y la densidad a gran escala?",
+   "color": "#7986CB",
+   "children": [
+    {
+     "id": "FOR.1",
+     "name": "Hipermetro y forma por bloques",
+     "status": "I",
+     "definition": "Bloques de 4, 8, 16 y 32 compases con cambios de textura en los bordes.",
+     "params": [
+      "block_len",
+      "fill_on_last_bar"
+     ]
+    },
+    {
+     "id": "FOR.2",
+     "name": "Arcos de tempo y densidad",
+     "status": "H",
+     "definition": "Principios formales de aceleración y densificación.",
+     "children": [
+      {
+       "id": "FOR.2.1",
+       "name": "Jo-ha-kyū",
+       "status": "H",
+       "definition": "Introducción lenta, desarrollo que acelera, conclusión rápida, en escalas sucesivas (Zeami)."
+      },
+      {
+       "id": "FOR.2.2",
+       "name": "Man-jung-sak",
+       "status": "H",
+       "definition": "Encadenamiento de jangdan de lento a medio a rápido."
+      },
+      {
+       "id": "FOR.2.3",
+       "name": "Accelerando de irama",
+       "status": "H",
+       "definition": "Cambios de nivel de irama que cambian la marcha de la densidad."
+      },
+      {
+       "id": "FOR.2.4",
+       "name": "Ma",
+       "status": "H",
+       "definition": "Intervalo de tiempo cargado de sentido; parámetro de silencio en bordes de frase.",
+       "params": [
+        "ma_prob",
+        "ma_len"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "FOR.3",
+     "name": "Laya y relación tempo–densidad",
+     "status": "H",
+     "definition": "Todo dispositivo separa tempo de densidad.",
+     "params": [
+      "tempo",
+      "density"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "COG",
+   "name": "Cognición y análisis",
+   "question": "¿Cómo se mide y se percibe lo que suena?",
+   "color": "#4DB6AC",
+   "children": [
+    {
+     "id": "COG.1",
+     "name": "Inducción del pulso",
+     "status": "H",
+     "definition": "Respuesta de discordancia en recién nacidos ante la omisión del tiempo fuerte; alcance innato en discusión."
+    },
+    {
+     "id": "COG.2",
+     "name": "Sincronización y aculturación",
+     "status": "H",
+     "definition": "Entrainment de osciladores atencionales; aculturación métrica temprana; Many Meters Hypothesis (London)."
+    },
+    {
+     "id": "COG.3",
+     "name": "Medidas computables",
+     "status": "H",
+     "definition": "Medidas que el generador calcula sobre el patrón.",
+     "children": [
+      {
+       "id": "COG.3.1",
+       "name": "Pesos métricos",
+       "status": "H",
+       "definition": "Longuet-Higgins y Lee: [0,-4,-3,-4,-2,-4,-3,-4,-1,-4,-3,-4,-2,-4,-3,-4] en 16 pasos."
+      },
+      {
+       "id": "COG.3.2",
+       "name": "Índice de síncopa",
+       "status": "I",
+       "definition": "Suma W − w cuando un ataque de peso w va seguido de silencio de peso W > w; adaptación exacta de Witek por verificar.",
+       "verify": true
+      },
+      {
+       "id": "COG.3.3",
+       "name": "Curva de groove en U invertida",
+       "status": "H",
+       "definition": "La síncopa intermedia produce más deseo de moverse (Witek et al. 2014).",
+       "params": [
+        "syncopation_target"
+       ]
+      },
+      {
+       "id": "COG.3.4",
+       "name": "Groove como impulso al movimiento",
+       "status": "H",
+       "definition": "El groove disminuye cuando el acoplamiento bimanual se vuelve difícil (Janata et al. 2012)."
+      },
+      {
+       "id": "COG.3.5",
+       "name": "Uniformidad (evenness)",
+       "status": "H",
+       "definition": "Distancia del patrón a la distribución máximamente uniforme."
+      },
+      {
+       "id": "COG.3.6",
+       "name": "Densidad",
+       "status": "H",
+       "definition": "Ataques por paso."
+      },
+      {
+       "id": "COG.3.7",
+       "name": "Entropía de intervalos",
+       "status": "H",
+       "definition": "Variedad de distancias entre ataques."
+      }
+     ]
+    },
+    {
+     "id": "COG.4",
+     "name": "Ritmo del paisaje sonoro",
+     "status": "H",
+     "definition": "Ciclos ambientales (Schafer), ritmo aditivo de eventos aleatorios (Truax), nicho acústico (Krause, hipótesis)."
+    }
+   ]
+  },
+  {
+   "id": "GRV",
+   "name": "Grooves electrónicos y populares",
+   "question": "¿Qué rejillas de 16 pasos sostienen la música de baile?",
+   "color": "#FFB74D",
+   "children": [
+    {
+     "id": "GRV.1",
+     "name": "Four-on-the-floor",
+     "status": "H",
+     "definition": "Bombo [0,4,8,12]; hat abierto [2,6,10,14]."
+    },
+    {
+     "id": "GRV.2",
+     "name": "Backbeat",
+     "status": "H",
+     "definition": "Caja [4,12]."
+    },
+    {
+     "id": "GRV.3",
+     "name": "Half-time",
+     "status": "H",
+     "definition": "Caja [8]."
+    },
+    {
+     "id": "GRV.4",
+     "name": "Shuffle",
+     "status": "H",
+     "definition": "Rejilla de 12 en tresillos: [0,2,3,5,6,8,9,11]."
+    },
+    {
+     "id": "GRV.5",
+     "name": "One drop",
+     "status": "H",
+     "definition": "Bombo y caja juntos en [8]; pulso 1 vacío."
+    },
+    {
+     "id": "GRV.6",
+     "name": "Rockers",
+     "status": "I",
+     "definition": "Bombo [0,8]."
+    },
+    {
+     "id": "GRV.7",
+     "name": "Steppers",
+     "status": "H",
+     "definition": "Bombo [0,4,8,12]."
+    },
+    {
+     "id": "GRV.8",
+     "name": "Skank",
+     "status": "I",
+     "definition": "Acordes [2,6,10,14] o [4,12] según el estilo."
+    },
+    {
+     "id": "GRV.9",
+     "name": "Trap",
+     "status": "H",
+     "definition": "Hats en semicorcheas con tresillos y redobles; caja [8]."
+    },
+    {
+     "id": "GRV.10",
+     "name": "Motorik",
+     "status": "H",
+     "definition": "4/4 constante con mínima variación; patrón exacto por verificar.",
+     "verify": true
+    },
+    {
+     "id": "GRV.11",
+     "name": "Breakbeat / Amen",
+     "status": "H",
+     "definition": "Bucles de breaks troceados; transcripción por verificar.",
+     "verify": true
+    },
+    {
+     "id": "GRV.12",
+     "name": "2-step / UK garage",
+     "status": "I",
+     "definition": "Bombo que omite tiempos con swing de semicorchea; onsets por verificar.",
+     "verify": true
+    },
+    {
+     "id": "GRV.13",
+     "name": "Bajo Moroder",
+     "status": "I",
+     "definition": "Semicorcheas continuas con acento por octava y filtro; contorno por verificar.",
+     "verify": true
+    },
+    {
+     "id": "GRV.14",
+     "name": "Dub techno",
+     "status": "I",
+     "definition": "Stab de acorde en contratiempo más delay a corchea con puntillo."
+    }
+   ]
+  },
+  {
+   "id": "RGG",
+   "name": "Reggae, dub y derivados",
+   "question": "¿Qué conserva cada estilo de la familia jamaicana?",
+   "color": "#AED581",
+   "children": [
+    {
+     "id": "RGG.1",
+     "name": "Raíces rituales y precursores",
+     "status": "H",
+     "definition": "Tradiciones afrojamaicanas que anteceden al ska y al reggae.",
+     "children": [
+      {
+       "id": "RGG.1.1",
+       "name": "Nyabinghi",
+       "status": "H",
+       "restricted_use": true,
+       "definition": "Reunión ceremonial rastafari; se incorpora el principio de tres roles (base, pulso, improvisación), sin toques ceremoniales como preset."
+      },
+      {
+       "id": "RGG.1.2",
+       "name": "Burru y kumina",
+       "status": "H",
+       "restricted_use": true,
+       "definition": "Tradiciones afrojamaicanas de tambor y canto; datos rítmicos faltantes."
+      },
+      {
+       "id": "RGG.1.3",
+       "name": "Mento",
+       "status": "H",
+       "definition": "Folclor jamaicano de los cincuenta con guitarra, banjo y tambores."
+      }
+     ]
+    },
+    {
+     "id": "RGG.2",
+     "name": "Eras de la música popular jamaicana",
+     "status": "H",
+     "definition": "Marcos rítmicos sucesivos, de ska a dancehall digital.",
+     "children": [
+      {
+       "id": "RGG.2.1",
+       "name": "Ska",
+       "status": "H",
+       "definition": "2/4 rápido con acento en el contratiempo; bajo en cuatro pulsos (~1960–1966)."
+      },
+      {
+       "id": "RGG.2.2",
+       "name": "Rocksteady",
+       "status": "H",
+       "definition": "Tempo percibido más lento, bajo más móvil (1966–1968)."
+      },
+      {
+       "id": "RGG.2.3",
+       "name": "Reggae temprano",
+       "status": "H",
+       "definition": "Órgano bubble, strum de guitarra, se asienta el one drop (1968–1974)."
+      },
+      {
+       "id": "RGG.2.4",
+       "name": "Roots reggae",
+       "status": "H",
+       "definition": "Bajo en primer plano, progresiones simples (1974–1983)."
+      },
+      {
+       "id": "RGG.2.5",
+       "name": "Rub-a-dub",
+       "status": "H",
+       "definition": "Ritmo lento y rodado, bajo redondo, batería simple (1979–1985)."
+      },
+      {
+       "id": "RGG.2.6",
+       "name": "Dancehall digital",
+       "status": "H",
+       "definition": "Riddims programados; Sleng Teng (1985)."
+      }
+     ]
+    },
+    {
+     "id": "RGG.3",
+     "name": "Batería: familias de bombo y caja",
+     "status": "H",
+     "definition": "One drop, rockers y steppers se ordenan alrededor del pulso 3 y se distinguen por el bombo.",
+     "params": [
+      "drop_beat",
+      "kick_mask",
+      "backbeat_mask",
+      "hat_mask",
+      "swing",
+      "half_time",
+      "kick_density"
+     ],
+     "children": [
+      {
+       "id": "RGG.3.1",
+       "name": "One drop",
+       "status": "H",
+       "definition": "Pulso 1 sin bombo; bombo y aro en el pulso 3; hat cerrado continuo."
+      },
+      {
+       "id": "RGG.3.2",
+       "name": "Rockers",
+       "status": "H",
+       "definition": "Dos acepciones: a) bombo en 1 y 3 (pedagógica); b) bombo en cada pulso con golpes dobles de caja (Sly Dunbar, 1976).",
+       "children": [
+        {
+         "id": "RGG.3.2a",
+         "name": "Rockers (acepción pedagógica)",
+         "status": "I",
+         "definition": "One drop con bombo añadido en el pulso 1: bombo en 1 y 3, aro en el 3."
+        },
+        {
+         "id": "RGG.3.2b",
+         "name": "Rockers (Channel One, 1976)",
+         "status": "H",
+         "definition": "Bombo en cada pulso con golpes dobles sobre la caja abierta, carácter marcial (Sly Dunbar)."
+        }
+       ]
+      },
+      {
+       "id": "RGG.3.3",
+       "name": "Steppers",
+       "status": "H",
+       "definition": "Bombo en los cuatro pulsos; backbeat en el 3."
+      },
+      {
+       "id": "RGG.3.4",
+       "name": "Variantes (half drop, two drop)",
+       "status": "V",
+       "verify": true,
+       "definition": "Mencionadas en tutoriales; patrones por verificar."
+      }
+     ]
+    },
+    {
+     "id": "RGG.4",
+     "name": "Hi-hat y platillos",
+     "status": "H",
+     "definition": "Capas de subdivisión del reggae y el dub.",
+     "params": [
+      "open_mask",
+      "laid_back_ms",
+      "swing"
+     ],
+     "children": [
+      {
+       "id": "RGG.4.1",
+       "name": "Corcheas cerradas",
+       "status": "H",
+       "definition": "Hat cerrado continuo, base del one drop."
+      },
+      {
+       "id": "RGG.4.2",
+       "name": "Corcheas con swing",
+       "status": "I",
+       "definition": "Larga–corta; tiende a 1:1 a tempos rápidos."
+      },
+      {
+       "id": "RGG.4.3",
+       "name": "Flying cymbal",
+       "status": "H",
+       "definition": "Alterna abierto y cerrado con siseo continuo (Santa Davis, 1974); rejilla por verificar.",
+       "verify": true
+      },
+      {
+       "id": "RGG.4.4",
+       "name": "Rellenos en tresillo laid-back",
+       "status": "I",
+       "definition": "Tresillos de hat retrasados respecto del pulso."
+      },
+      {
+       "id": "RGG.4.5",
+       "name": "Semicorcheas digitales",
+       "status": "I",
+       "definition": "Hat en 16 pasos con acentos en riddims programados."
+      }
+     ]
+    },
+    {
+     "id": "RGG.5",
+     "name": "Bajo",
+     "status": "H",
+     "definition": "El bajo lidera el roots reggae: frases cortas con silencios amplios.",
+     "params": [
+      "bass_space",
+      "offbeat_bias",
+      "repeat_len",
+      "octave_jump_prob",
+      "lock_to_kick"
+     ],
+     "children": [
+      {
+       "id": "RGG.5.1",
+       "name": "Bajo de ska",
+       "status": "H",
+       "definition": "Patrón de cuatro pulsos estable."
+      },
+      {
+       "id": "RGG.5.2",
+       "name": "Bajo de rocksteady",
+       "status": "H",
+       "definition": "Líneas variadas y móviles."
+      },
+      {
+       "id": "RGG.5.3",
+       "name": "Bajo de roots",
+       "status": "I",
+       "definition": "Ostinato corto y melódico con espacio, grave y redondo."
+      },
+      {
+       "id": "RGG.5.4",
+       "name": "Bajo de dub",
+       "status": "I",
+       "definition": "Línea mínima con retiradas y regresos."
+      },
+      {
+       "id": "RGG.5.5",
+       "name": "Bajo digital",
+       "status": "H",
+       "definition": "Ostinato programado (Sleng Teng) y sub 808."
+      }
+     ]
+    },
+    {
+     "id": "RGG.6",
+     "name": "Guitarra, piano y órgano",
+     "status": "H",
+     "definition": "Skank, chop, bubble y strum.",
+     "params": [
+      "skank_mode",
+      "bubble_on",
+      "frame_16ths",
+      "chord_length_ms",
+      "swing",
+      "delay_on_gap"
+     ],
+     "children": [
+      {
+       "id": "RGG.6.1",
+       "name": "Skank en contratiempo",
+       "status": "H",
+       "definition": "Acorde corto en el «y» de cada pulso."
+      },
+      {
+       "id": "RGG.6.2",
+       "name": "Chop en 2 y 4",
+       "status": "H",
+       "definition": "Acorde en el backbeat, guitarra y piano duplicados."
+      },
+      {
+       "id": "RGG.6.3",
+       "name": "Bubble (órgano)",
+       "status": "H",
+       "definition": "Contratiempos con semicorcheas de enmarque; patrón exacto por verificar."
+      },
+      {
+       "id": "RGG.6.4",
+       "name": "Strum de semicorchea",
+       "status": "H",
+       "definition": "Rasgueo del reggae temprano; patrón por verificar.",
+       "verify": true
+      }
+     ]
+    },
+    {
+     "id": "RGG.7",
+     "name": "Percusión menor",
+     "status": "H",
+     "definition": "Pandereta, bloque, shakers y tambores de mano con función clara.",
+     "params": [
+      "shaker_8ths",
+      "tambourine_offbeat",
+      "rim_click_3"
+     ]
+    },
+    {
+     "id": "RGG.8",
+     "name": "Dub: procedimientos con consecuencia rítmica",
+     "status": "H",
+     "definition": "La mezcla en consola como generadora de ritmo.",
+     "children": [
+      {
+       "id": "RGG.8.1",
+       "name": "Versión y riddim",
+       "status": "H",
+       "definition": "Pista de bajo y batería reutilizada con otro contenido.",
+       "params": [
+        "riddim_id"
+       ]
+      },
+      {
+       "id": "RGG.8.2",
+       "name": "Retirada de capas (drop-out)",
+       "status": "H",
+       "definition": "Retirar el ritmo para dar fuerza a su regreso (King Tubby).",
+       "params": [
+        "dropout_layers",
+        "dropout_len_beats",
+        "return_accent"
+       ]
+      },
+      {
+       "id": "RGG.8.3",
+       "name": "Ecos como ritmo derivado",
+       "status": "H",
+       "definition": "Delays de cinta a negra, corchea, corchea con puntillo o semicorchea.",
+       "params": [
+        "delay_ratio",
+        "feedback",
+        "wow",
+        "throw_prob"
+       ]
+      },
+      {
+       "id": "RGG.8.4",
+       "name": "Arco de mezcla",
+       "status": "H",
+       "definition": "Mutes, filtros y envíos como gesto performativo.",
+       "params": [
+        "mute_mask"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "RGG.9",
+     "name": "Riddim digital y dancehall",
+     "status": "H",
+     "definition": "Riddims programados desde 1985.",
+     "children": [
+      {
+       "id": "RGG.9.1",
+       "name": "Sleng Teng",
+       "status": "H",
+       "definition": "Bajo ostinato robótico sobre batería programada; contorno por verificar.",
+       "verify": true
+      },
+      {
+       "id": "RGG.9.2",
+       "name": "Dem Bow / Poco Man Jam",
+       "status": "H",
+       "definition": "Bombo constante y cajas sincopadas en 3+3+2 (Steely & Clevie)."
+      },
+      {
+       "id": "RGG.9.3",
+       "name": "Bam Bam (1992)",
+       "status": "H",
+       "definition": "Groove elástico con palmas; patrón por verificar.",
+       "verify": true
+      },
+      {
+       "id": "RGG.9.4",
+       "name": "Punaany / Duck / Juice",
+       "status": "H",
+       "definition": "Riddims ragga de alta circulación; patrones por verificar.",
+       "verify": true
+      }
+     ]
+    },
+    {
+     "id": "RGG.10",
+     "name": "Derivados fuera de Jamaica",
+     "status": "H",
+     "definition": "Estilos que conservan piezas distintas del original.",
+     "children": [
+      {
+       "id": "RGG.10.1",
+       "name": "UK steppers",
+       "status": "H",
+       "definition": "Bombo constante en 4/4, sirenas de dub (Jah Shaka); tempo por verificar."
+      },
+      {
+       "id": "RGG.10.2",
+       "name": "Dub techno",
+       "status": "H",
+       "definition": "Bombo en cuatro, hat en contratiempo y stabs de acorde con eco (Basic Channel, 1993); cambios microscópicos sobre un lazo estable.",
+       "params": [
+        "stab_positions",
+        "delay_ratio",
+        "feedback",
+        "filter_cutoff_lfo",
+        "hiss_amount"
+       ]
+      },
+      {
+       "id": "RGG.10.3",
+       "name": "Dubstep y 2-step",
+       "status": "H",
+       "definition": "132–142 BPM; caja en el pulso 3; el 2-step con bombo en 1 y 3 y hats con swing."
+      },
+      {
+       "id": "RGG.10.4",
+       "name": "Dembow y reggaetón",
+       "status": "H",
+       "definition": "Tresillo 3+3+2 sobre bombo constante; posiciones de caja por verificar."
+      },
+      {
+       "id": "RGG.10.5",
+       "name": "Lovers rock",
+       "status": "H",
+       "definition": "One drop suave con sensibilidad soul y R&B (sur de Londres)."
+      },
+      {
+       "id": "RGG.10.6",
+       "name": "Jungle y ragga",
+       "status": "H",
+       "definition": "Dancehall británico y toasting en el ragga jungle."
+      },
+      {
+       "id": "RGG.10.7",
+       "name": "Fusiones de ska",
+       "status": "H",
+       "definition": "2 Tone, ska punk y skacore."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "destinations": [
+  {
+   "id": "bassline",
+   "name": "Bassline",
+   "polyphony": 1,
+   "default_range": [
+    28,
+    52
+   ]
+  },
+  {
+   "id": "chords",
+   "name": "Chords",
+   "polyphony": 6,
+   "default_range": [
+    48,
+    79
+   ]
+  },
+  {
+   "id": "arpeggio",
+   "name": "Arpeggio",
+   "polyphony": 1,
+   "default_range": [
+    55,
+    84
+   ]
+  },
+  {
+   "id": "hihats",
+   "name": "Hi-hats",
+   "polyphony": 3,
+   "drum_map": "hihats_gm"
+  },
+  {
+   "id": "ethnic",
+   "name": "Ethnic drums",
+   "polyphony": 8,
+   "drum_map": "drum_rack_default"
+  },
+  {
+   "id": "others",
+   "name": "Others",
+   "polyphony": 8,
+   "default_range": [
+    36,
+    96
+   ]
+  }
+ ],
+ "destination_categories": [
+  {
+   "id": "dub_techno",
+   "name": "Dub Techno",
+   "destinations": [
+    "chords",
+    "bassline",
+    "hihats"
+   ],
+   "taxonomy": [
+    "RGG.10.2",
+    "GRV.14",
+    "PRO.19"
+   ]
+  },
+  {
+   "id": "dub_reggae",
+   "name": "Dub / Reggae",
+   "destinations": [
+    "chords",
+    "bassline",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "taxonomy": [
+    "RGG"
+   ]
+  },
+  {
+   "id": "latin_percussion",
+   "name": "Latin percussion",
+   "destinations": [
+    "ethnic",
+    "hihats"
+   ],
+   "taxonomy": [
+    "CIC.3",
+    "CIC.6"
+   ]
+  },
+  {
+   "id": "electronic",
+   "name": "Grooves electrónicos",
+   "destinations": [
+    "hihats",
+    "ethnic",
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "taxonomy": [
+    "GRV"
+   ]
+  },
+  {
+   "id": "world_cycles",
+   "name": "Ciclos del mundo",
+   "destinations": [
+    "ethnic",
+    "others",
+    "arpeggio",
+    "bassline"
+   ],
+   "taxonomy": [
+    "CIC.2",
+    "CIC.4",
+    "CIC.5",
+    "CIC.7",
+    "CIC.8",
+    "MET.3"
+   ]
+  },
+  {
+   "id": "procedures",
+   "name": "Procedimientos",
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "taxonomy": [
+    "PRO"
+   ]
+  }
+ ]
+}

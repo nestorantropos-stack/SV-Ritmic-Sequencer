@@ -1,0 +1,59 @@
+{
+  "family": "flamenco",
+  "name": "Compás flamenco",
+  "notes": "Ciclo de 12 tiempos con acentos en 3, 6, 8, 10 y 12 (desde 1) = pasos [2,5,7,9,11]. start_offset rota el ciclo (CIC.7). Paso = corchea.",
+  "patterns": [
+    {
+      "id": "CIC.7/solea", "name": "Soleá",
+      "taxonomy": ["CIC.7", "MET.3.2", "SUP.3.1"],
+      "origin": { "tradition": "Andalucía (flamenco)", "genre": ["soleá"], "context": "compás lento de base", "sources": ["meta-análisis §2.5 CIC.7"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.5, "meter": "12/8", "grouping": [3, 3, 2, 2, 2],
+      "layers": [
+        { "role": "palmas", "onsets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "velocity": [60, 60, 120, 60, 60, 120, 60, 120, 60, 120, 60, 120], "timbre": [3, 3, 2, 3, 3, 2, 3, 2, 3, 2, 3, 2] },
+        { "role": "accent", "onsets": [2, 5, 7, 9, 11] }
+      ],
+      "params": { "start_offset": 0 },
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["ethnic", "chords", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["flamenco"], "bpm_range": [60, 120],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "llamada" }
+    },
+    {
+      "id": "CIC.7/alegrias", "name": "Alegrías y cantiñas",
+      "taxonomy": ["CIC.7"],
+      "origin": { "tradition": "Andalucía (flamenco, Cádiz)", "genre": ["alegrías", "cantiñas"], "context": "misma acentuación que la soleá, tempo más vivo", "sources": ["meta-análisis §2.5 CIC.7"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.5, "meter": "12/8", "grouping": [3, 3, 2, 2, 2],
+      "layers": [ { "role": "accent", "onsets": [2, 5, 7, 9, 11] }, { "role": "palmas", "onsets": [0, 1, 3, 4, 6, 8, 10], "velocity": [60, 60, 60, 60, 60, 60, 60], "timbre": [3, 3, 3, 3, 3, 3, 3] } ],
+      "params": { "start_offset": 0 },
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["ethnic", "chords", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["flamenco"], "bpm_range": [100, 170],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "llamada" }
+    },
+    {
+      "id": "CIC.7/buleria", "name": "Bulería (base)",
+      "taxonomy": ["CIC.7", "SUP.3"],
+      "origin": { "tradition": "Andalucía (flamenco, Jerez)", "genre": ["bulería"], "context": "rápida y variable; medios compases de 6", "sources": ["meta-análisis §2.5 CIC.7"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.5, "meter": "12/8", "grouping": [3, 3, 2, 2, 2],
+      "layers": [ { "role": "accent", "onsets": [2, 5, 7, 9, 11] } ],
+      "params": { "start_offset": 0, "half_compas": true },
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["ethnic", "chords", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["flamenco"], "bpm_range": [180, 260],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "llamada" },
+      "notes": "Acentuación de base; la variación propia de la bulería la añade el generador con medios compases."
+    },
+    {
+      "id": "CIC.7/seguiriya", "name": "Seguiriya",
+      "taxonomy": ["CIC.7", "PRO.14", "MET.3.4"],
+      "origin": { "tradition": "Andalucía (flamenco)", "genre": ["seguiriya"], "context": "el mismo ciclo empezando en el 8, sentido como 2+2+3+3+2", "sources": ["meta-análisis §2.5 CIC.7"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.5, "meter": "12/8", "grouping": [2, 2, 3, 3, 2],
+      "layers": [ { "role": "accent", "onsets": [0, 2, 4, 7, 10] } ],
+      "params": { "start_offset": 7 },
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["ethnic", "chords", "bassline", "others"], "categories": ["world_cycles"],
+      "tags": ["flamenco"], "bpm_range": [50, 100],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "llamada" }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "_nota": "Copia este archivo como corpus_sources.json y configura rutas locales. No publiques tu configuración ni archivos del corpus.",
+  "ddt": "<CARPETA_LOCAL_DDT_MIDI>",
+  "dub": "<CARPETA_LOCAL_DUB>",
+  "latin": "<CARPETA_LOCAL_LATIN>"
+}

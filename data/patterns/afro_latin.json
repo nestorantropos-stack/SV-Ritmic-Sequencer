@@ -1,0 +1,105 @@
+{
+  "family": "afro_latin",
+  "name": "Ciclos afroamericanos y criollos",
+  "patterns": [
+    {
+      "id": "CIC.6.1/dembow_cic", "name": "Dembow (grilla CIC)",
+      "taxonomy": ["CIC.6.1", "CIC.3.1", "RGG.10.4"],
+      "origin": { "tradition": "Jamaica → Panamá → Puerto Rico", "genre": ["reggaetón"], "context": "bombo constante y caja sincopada", "sources": ["meta-análisis §2.5 CIC.6.1"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 4, 8, 12] }, { "role": "snare", "onsets": [3, 6, 11, 14] } ],
+      "transforms_allowed": ["density", "swing", "rotate"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["latin_percussion"],
+      "tags": ["reggaeton", "dembow"], "bpm_range": [85, 100],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "notes": "Véase RGG.10.4/dembow para la divergencia entre fuentes."
+    },
+    {
+      "id": "CIC.6.2/samba_surdo", "name": "Samba: surdo",
+      "taxonomy": ["CIC.6.2", "MIC.2.1"],
+      "origin": { "tradition": "Brasil (Río de Janeiro)", "genre": ["samba"], "context": "surdo con acento en el pulso 2 de 2/4", "sources": ["meta-análisis §2.5 CIC.6.2"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.25, "meter": "2/4",
+      "layers": [ { "role": "surdo", "onsets": [0, 4], "velocity": [85, 127], "timbre": [3, 2] } ],
+      "params": { "microtiming_template": "samba" },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "bassline", "others"], "categories": ["latin_percussion"],
+      "tags": ["samba", "brasil"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "virada" },
+      "notes": "Golpe apagado en el 1 y abierto en el 2 como propuesta de timbre; el acento en el 2 es el dato documentado."
+    },
+    {
+      "id": "CIC.6.2/samba_tamborim", "name": "Samba: tamborim y partido alto",
+      "taxonomy": ["CIC.6.2"],
+      "origin": { "tradition": "Brasil", "genre": ["samba"], "context": "tamborim y partido alto", "sources": ["meta-análisis §7"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Patrones de tamborim y partido alto faltantes en el informe.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "2/4",
+      "layers": [ { "role": "tamborim", "onsets": [] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "hihats"], "categories": ["latin_percussion"],
+      "tags": ["samba"], "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "virada" }
+    },
+    {
+      "id": "CIC.6.3/maracatu", "name": "Maracatu de baque virado",
+      "taxonomy": ["CIC.6.3", "PRO.17", "MIC.2.7"],
+      "origin": { "tradition": "Pernambuco, Brasil", "genre": ["maracatu nação"], "context": "toques martelo, luanda, arrastão y baque parado; el gonguê cumple función de clave; viradas", "sources": ["ANPPOM 2025", "Sambapedia"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Patrones de toques por verificar (§7 del informe).",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "alfaia_grave", "onsets": [] }, { "role": "gongue_grave", "onsets": [] }, { "role": "caixa", "onsets": [] }, { "role": "tarol", "onsets": [] }, { "role": "mineiro", "onsets": [] }, { "role": "abe", "onsets": [] } ],
+      "params": { "drum_map": "maracatu" },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic"], "categories": ["latin_percussion"],
+      "tags": ["maracatu", "brasil"], "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "virada" }
+    },
+    {
+      "id": "CIC.6.4/candombe", "name": "Candombe",
+      "taxonomy": ["CIC.6.4"],
+      "origin": { "tradition": "Uruguay (afrouruguaya)", "genre": ["candombe"], "context": "tres tambores (chico, repique, piano) y madera en el casco", "sources": ["meta-análisis §2.5 CIC.6.4"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Patrones por tambor por verificar.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "chico_abierto", "onsets": [] }, { "role": "repique_abierto", "onsets": [] }, { "role": "piano_abierto", "onsets": [] }, { "role": "madera", "onsets": [] } ],
+      "params": { "drum_map": "candombe" },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic"], "categories": ["latin_percussion"],
+      "tags": ["candombe", "uruguay"], "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.6.5/cumbia", "name": "Cumbia",
+      "taxonomy": ["CIC.6.5", "ACE.2.2"],
+      "origin": { "tradition": "Colombia (costa caribe)", "genre": ["cumbia"], "context": "llamador en contratiempo, alegre improvisando, guacharaca en corcheas", "sources": ["meta-análisis §2.5 CIC.6.5"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.25, "meter": "2/4",
+      "layers": [
+        { "role": "llamador", "onsets": [2, 6] },
+        { "role": "guacharaca", "onsets": [0, 2, 4, 6] }
+      ],
+      "params": { "alegre_improv": true },
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "hihats", "others"], "categories": ["latin_percussion"],
+      "tags": ["cumbia", "colombia"], "bpm_range": [80, 110],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" },
+      "notes": "El alegre improvisa: el generador lo trata como capa probabilística."
+    },
+    {
+      "id": "CIC.6.6/festejo", "name": "Festejo y landó",
+      "taxonomy": ["CIC.6.6", "MET.2.4"],
+      "origin": { "tradition": "Perú (afroperuana)", "genre": ["festejo", "landó"], "context": "6/8 y 12/8 con cajón", "sources": ["meta-análisis §2.5 CIC.6.6"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Patrones de cajón por verificar.",
+      "cycle_len": 12, "step_value": 0.5, "meter": "12/8",
+      "layers": [ { "role": "cajon_grave", "onsets": [] }, { "role": "cajon_agudo", "onsets": [] } ],
+      "params": { "drum_map": "cajon_flamenco" },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic"], "categories": ["latin_percussion"],
+      "tags": ["peru", "festejo"], "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.6.7/huayno", "name": "Huayno",
+      "taxonomy": ["CIC.6.7"],
+      "origin": { "tradition": "Andes (Perú, Bolivia)", "genre": ["huayno"], "context": "2/4 con célula corchea y dos semicorcheas", "sources": ["meta-análisis §2.5 CIC.6.7"] },
+      "status": "H", "verify": false, "cycle_len": 8, "step_value": 0.25, "meter": "2/4",
+      "layers": [ { "role": "cell", "onsets": [0, 2, 3, 4, 6, 7] } ],
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "bassline", "chords", "arpeggio", "others"], "categories": ["latin_percussion", "world_cycles"],
+      "tags": ["huayno", "andes"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    }
+  ]
+}

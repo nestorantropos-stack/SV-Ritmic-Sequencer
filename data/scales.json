@@ -1,0 +1,83 @@
+{
+  "version": "1.0.0",
+  "notes": "intervals: semitonos desde la raíz en 12-TET (lo que se escribe en el clip). cents: afinación nominal cuando difiere del temperamento (maqamat, gamelan); se conserva como metadato para una futura opción de cuartos de tono (D-009). El modo Adaptable compara por intervalos con live_set.scale_intervals, no por nombre.",
+  "families": [
+    { "id": "western_modes", "name": "Modos occidentales" },
+    { "id": "pentatonic", "name": "Pentatónicas y blues" },
+    { "id": "minor_variants", "name": "Menores y mayores alteradas" },
+    { "id": "symmetric", "name": "Escalas simétricas" },
+    { "id": "world_12", "name": "Otras escalas en 12 notas" },
+    { "id": "maqam", "name": "Maqamat (aproximación)" },
+    { "id": "raga", "name": "Ragas básicos (thaat)" },
+    { "id": "gamelan", "name": "Gamelan (aproximación)" }
+  ],
+  "scales": [
+    { "id": "major", "name": "Mayor (jónico)", "family": "western_modes", "intervals": [0, 2, 4, 5, 7, 9, 11], "status": "H" },
+    { "id": "dorian", "name": "Dórico", "family": "western_modes", "intervals": [0, 2, 3, 5, 7, 9, 10], "status": "H" },
+    { "id": "phrygian", "name": "Frigio", "family": "western_modes", "intervals": [0, 1, 3, 5, 7, 8, 10], "status": "H" },
+    { "id": "lydian", "name": "Lidio", "family": "western_modes", "intervals": [0, 2, 4, 6, 7, 9, 11], "status": "H" },
+    { "id": "mixolydian", "name": "Mixolidio", "family": "western_modes", "intervals": [0, 2, 4, 5, 7, 9, 10], "status": "H" },
+    { "id": "minor", "name": "Menor natural (eólico)", "family": "western_modes", "intervals": [0, 2, 3, 5, 7, 8, 10], "status": "H" },
+    { "id": "locrian", "name": "Locrio", "family": "western_modes", "intervals": [0, 1, 3, 5, 6, 8, 10], "status": "H" },
+
+    { "id": "major_pentatonic", "name": "Pentatónica mayor", "family": "pentatonic", "intervals": [0, 2, 4, 7, 9], "status": "H" },
+    { "id": "minor_pentatonic", "name": "Pentatónica menor", "family": "pentatonic", "intervals": [0, 3, 5, 7, 10], "status": "H" },
+    { "id": "minor_blues", "name": "Blues menor", "family": "pentatonic", "intervals": [0, 3, 5, 6, 7, 10], "status": "H" },
+    { "id": "major_blues", "name": "Blues mayor", "family": "pentatonic", "intervals": [0, 2, 3, 4, 7, 9], "status": "H" },
+    { "id": "egyptian", "name": "Pentatónica suspendida", "family": "pentatonic", "intervals": [0, 2, 5, 7, 10], "status": "H" },
+
+    { "id": "harmonic_minor", "name": "Menor armónica", "family": "minor_variants", "intervals": [0, 2, 3, 5, 7, 8, 11], "status": "H" },
+    { "id": "melodic_minor", "name": "Menor melódica (ascendente)", "family": "minor_variants", "intervals": [0, 2, 3, 5, 7, 9, 11], "status": "H" },
+    { "id": "harmonic_major", "name": "Mayor armónica", "family": "minor_variants", "intervals": [0, 2, 4, 5, 7, 8, 11], "status": "H" },
+    { "id": "dorian_sharp4", "name": "Dórico #4", "family": "minor_variants", "intervals": [0, 2, 3, 6, 7, 9, 10], "status": "H" },
+    { "id": "phrygian_dominant", "name": "Frigio dominante", "family": "minor_variants", "intervals": [0, 1, 4, 5, 7, 8, 10], "status": "H" },
+    { "id": "lydian_augmented", "name": "Lidio aumentado", "family": "minor_variants", "intervals": [0, 2, 4, 6, 8, 9, 11], "status": "H" },
+    { "id": "lydian_dominant", "name": "Lidio dominante", "family": "minor_variants", "intervals": [0, 2, 4, 6, 7, 9, 10], "status": "H" },
+    { "id": "super_locrian", "name": "Superlocrio (alterada)", "family": "minor_variants", "intervals": [0, 1, 3, 4, 6, 8, 10], "status": "H" },
+    { "id": "hungarian_minor", "name": "Menor húngara", "family": "minor_variants", "intervals": [0, 2, 3, 6, 7, 8, 11], "status": "H" },
+    { "id": "double_harmonic", "name": "Doble armónica", "family": "minor_variants", "intervals": [0, 1, 4, 5, 7, 8, 11], "status": "H" },
+
+    { "id": "whole_tone", "name": "Tonos enteros", "family": "symmetric", "intervals": [0, 2, 4, 6, 8, 10], "status": "H" },
+    { "id": "dim_half_whole", "name": "Disminuida semitono-tono", "family": "symmetric", "intervals": [0, 1, 3, 4, 6, 7, 9, 10], "status": "H" },
+    { "id": "dim_whole_half", "name": "Disminuida tono-semitono", "family": "symmetric", "intervals": [0, 2, 3, 5, 6, 8, 9, 11], "status": "H" },
+    { "id": "augmented", "name": "Aumentada (hexatónica)", "family": "symmetric", "intervals": [0, 3, 4, 7, 8, 11], "status": "H" },
+    { "id": "messiaen_3", "name": "Messiaen modo 3", "family": "symmetric", "intervals": [0, 2, 3, 4, 6, 7, 8, 10, 11], "status": "H" },
+    { "id": "chromatic", "name": "Cromática", "family": "symmetric", "intervals": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "status": "H" },
+
+    { "id": "spanish_8", "name": "Española de 8 notas", "family": "world_12", "intervals": [0, 1, 3, 4, 5, 6, 8, 10], "status": "H" },
+    { "id": "hirajoshi", "name": "Hirajōshi", "family": "world_12", "intervals": [0, 2, 3, 7, 8], "status": "H" },
+    { "id": "in_sen", "name": "In-sen", "family": "world_12", "intervals": [0, 1, 5, 7, 10], "status": "H" },
+    { "id": "iwato", "name": "Iwato", "family": "world_12", "intervals": [0, 1, 5, 6, 10], "status": "H" },
+    { "id": "kumoi", "name": "Kumoi", "family": "world_12", "intervals": [0, 2, 3, 7, 9], "status": "H" },
+
+    { "id": "maqam_ajam", "name": "Maqam ʿAjam", "family": "maqam", "intervals": [0, 2, 4, 5, 7, 9, 11], "cents": [0, 200, 400, 500, 700, 900, 1100], "status": "I", "verify": false, "sources": ["MaqamWorld"] },
+    { "id": "maqam_nahawand", "name": "Maqam Nahawand", "family": "maqam", "intervals": [0, 2, 3, 5, 7, 8, 11], "cents": [0, 200, 300, 500, 700, 800, 1100], "status": "I", "verify": false, "sources": ["MaqamWorld"] },
+    { "id": "maqam_kurd", "name": "Maqam Kurd", "family": "maqam", "intervals": [0, 1, 3, 5, 7, 8, 10], "cents": [0, 100, 300, 500, 700, 800, 1000], "status": "I", "verify": false, "sources": ["MaqamWorld"] },
+    { "id": "maqam_hijaz", "name": "Maqam Ḥijāz", "family": "maqam", "intervals": [0, 1, 4, 5, 7, 8, 10], "cents": [0, 100, 400, 500, 700, 800, 1000], "status": "I", "verify": false, "sources": ["MaqamWorld"] },
+    { "id": "maqam_rast", "name": "Maqam Rast", "family": "maqam", "intervals": [0, 2, 3, 5, 7, 9, 10], "cents": [0, 200, 350, 500, 700, 900, 1050], "approx_rule": "cuarto de tono redondeado hacia abajo", "status": "I", "verify": true, "verify_notes": "Cents nominales; la entonación real del 3.º y 7.º grado varía por región e intérprete.", "sources": ["MaqamWorld"] },
+    { "id": "maqam_bayati", "name": "Maqam Bayātī", "family": "maqam", "intervals": [0, 1, 3, 5, 7, 8, 10], "cents": [0, 150, 300, 500, 700, 800, 1000], "approx_rule": "cuarto de tono redondeado hacia abajo", "status": "I", "verify": true, "verify_notes": "El 2.º grado es un cuarto de tono; su aproximación en 12 notas coincide con Kurd.", "sources": ["MaqamWorld"] },
+    { "id": "maqam_saba", "name": "Maqam Ṣabā", "family": "maqam", "intervals": [0, 1, 3, 4, 7, 8, 10], "cents": [0, 150, 300, 400, 700, 800, 1000], "approx_rule": "cuarto de tono redondeado hacia abajo", "status": "I", "verify": true, "verify_notes": "Escala no octavante en la práctica; aquí se reduce a una octava.", "sources": ["MaqamWorld"] },
+
+    { "id": "raga_bilawal", "name": "Bilawal (thaat)", "family": "raga", "intervals": [0, 2, 4, 5, 7, 9, 11], "status": "H", "notes": "Un raga es más que una escala: incluye movimientos, notas principales y hora. Aquí solo se usa el material de alturas." },
+    { "id": "raga_kalyan", "name": "Kalyan / Yaman (thaat)", "family": "raga", "intervals": [0, 2, 4, 6, 7, 9, 11], "status": "H" },
+    { "id": "raga_khamaj", "name": "Khamaj (thaat)", "family": "raga", "intervals": [0, 2, 4, 5, 7, 9, 10], "status": "H" },
+    { "id": "raga_kafi", "name": "Kafi (thaat)", "family": "raga", "intervals": [0, 2, 3, 5, 7, 9, 10], "status": "H" },
+    { "id": "raga_asavari", "name": "Asavari (thaat)", "family": "raga", "intervals": [0, 2, 3, 5, 7, 8, 10], "status": "H" },
+    { "id": "raga_bhairavi", "name": "Bhairavi (thaat)", "family": "raga", "intervals": [0, 1, 3, 5, 7, 8, 10], "status": "H" },
+    { "id": "raga_bhairav", "name": "Bhairav (thaat)", "family": "raga", "intervals": [0, 1, 4, 5, 7, 8, 11], "status": "H" },
+    { "id": "raga_purvi", "name": "Purvi (thaat)", "family": "raga", "intervals": [0, 1, 4, 6, 7, 8, 11], "status": "H" },
+    { "id": "raga_marwa", "name": "Marwa (thaat)", "family": "raga", "intervals": [0, 1, 4, 6, 7, 9, 11], "status": "H" },
+    { "id": "raga_todi", "name": "Todi (thaat)", "family": "raga", "intervals": [0, 1, 3, 6, 7, 8, 11], "status": "H" },
+    { "id": "raga_bhupali", "name": "Bhupali", "family": "raga", "intervals": [0, 2, 4, 7, 9], "status": "H" },
+    { "id": "raga_malkauns", "name": "Malkauns", "family": "raga", "intervals": [0, 3, 5, 8, 10], "status": "H" },
+
+    { "id": "slendro", "name": "Slendro (aprox.)", "family": "gamelan", "intervals": [0, 2, 5, 7, 9], "cents": [0, 240, 480, 720, 960], "status": "I", "verify": true, "verify_notes": "Cada gamelan tiene su afinación; los cents son una media equidistante nominal.", "sources": ["Sumarsam"] },
+    { "id": "pelog_selisir", "name": "Pelog selisir (aprox.)", "family": "gamelan", "intervals": [0, 1, 3, 7, 8], "status": "I", "verify": true, "verify_notes": "Aproximación pentatónica en 12 notas; afinación real variable." },
+    { "id": "pelog_tembung", "name": "Pelog tembung (aprox.)", "family": "gamelan", "intervals": [0, 1, 5, 7, 8], "status": "I", "verify": true, "verify_notes": "Aproximación pentatónica en 12 notas; afinación real variable." }
+  ],
+  "random_rules": {
+    "notes": "Modo Random: elige familia con pesos, luego escala y raíz. Las reglas evitan combinaciones poco musicales para el destino.",
+    "family_weights": { "western_modes": 5, "pentatonic": 3, "minor_variants": 2, "symmetric": 0.5, "world_12": 1, "maqam": 1, "raga": 1, "gamelan": 0.5 },
+    "avoid_for_destination": { "bassline": ["chromatic", "messiaen_3"], "chords": ["chromatic"] }
+  }
+}

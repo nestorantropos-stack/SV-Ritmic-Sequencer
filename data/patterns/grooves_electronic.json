@@ -1,0 +1,174 @@
+{
+  "family": "grooves_electronic",
+  "name": "Grooves electrónicos y populares",
+  "patterns": [
+    {
+      "id": "GRV.1/four_on_the_floor", "name": "Four-on-the-floor",
+      "taxonomy": ["GRV.1", "MET.2.3", "COG.2"],
+      "origin": { "tradition": "disco, house, techno", "genre": ["disco", "house", "techno"], "context": "música de baile", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 4, 8, 12] }, { "role": "hat_open", "onsets": [2, 6, 10, 14] } ],
+      "transforms_allowed": ["rotate", "density", "swing", "phase"],
+      "destinations": ["ethnic", "hihats", "bassline", "chords", "others"], "categories": ["electronic"],
+      "tags": ["house", "techno", "disco"], "bpm_range": [115, 135],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.2/backbeat", "name": "Backbeat",
+      "taxonomy": ["GRV.2", "ACE.2.2"],
+      "origin": { "tradition": "rhythm and blues, rock, pop", "genre": ["rock", "pop", "funk"], "context": "caja en 2 y 4", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 8] }, { "role": "snare", "onsets": [4, 12] }, { "role": "hat", "onsets": [0, 2, 4, 6, 8, 10, 12, 14] } ],
+      "transforms_allowed": ["rotate", "density", "swing"],
+      "destinations": ["ethnic", "hihats", "chords", "others"], "categories": ["electronic"],
+      "tags": ["rock", "pop", "funk", "hiphop"], "bpm_range": [70, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.3/half_time", "name": "Half-time",
+      "taxonomy": ["GRV.3", "FOR.3"],
+      "origin": { "tradition": "música popular", "genre": ["dubstep", "trap", "rock"], "context": "caja en el pulso 3", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0] }, { "role": "snare", "onsets": [8] } ],
+      "transforms_allowed": ["rotate", "density", "swing"],
+      "destinations": ["ethnic", "hihats", "others"], "categories": ["electronic"],
+      "tags": ["dubstep", "trap"], "bpm_range": [130, 150],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.4/shuffle", "name": "Shuffle (tresillos)",
+      "taxonomy": ["GRV.4", "MIC.1.1"],
+      "origin": { "tradition": "blues, jazz, rhythm and blues", "genre": ["blues", "shuffle"], "context": "rejilla de 12 en tresillos", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.333333, "meter": "12/8",
+      "layers": [ { "role": "hat", "onsets": [0, 2, 3, 5, 6, 8, 9, 11] } ],
+      "transforms_allowed": ["rotate", "density"],
+      "destinations": ["hihats", "ethnic", "bassline", "chords", "others"], "categories": ["electronic"],
+      "tags": ["blues", "shuffle"], "bpm_range": [70, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.5/one_drop", "name": "One drop (grilla GRV)",
+      "taxonomy": ["GRV.5", "RGG.3.1"],
+      "origin": { "tradition": "Jamaica, roots reggae", "genre": ["reggae"], "context": "bombo y caja en el pulso 3", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [8] }, { "role": "snare", "onsets": [8] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "others"], "categories": ["electronic", "dub_reggae"],
+      "tags": ["reggae", "dub"], "bpm_range": [60, 90],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "hat_triplet_fill" }
+    },
+    {
+      "id": "GRV.6/rockers", "name": "Rockers (grilla GRV)",
+      "taxonomy": ["GRV.6", "RGG.3.2"],
+      "origin": { "tradition": "Jamaica", "genre": ["reggae"], "context": "bombo en 1 y 3", "sources": ["meta-análisis §3"] },
+      "status": "I", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 8] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "others"], "categories": ["electronic", "dub_reggae"],
+      "tags": ["reggae", "dub"], "bpm_range": [60, 90],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "notes": "Véase RGG.3.2a y RGG.3.2b para las dos acepciones."
+    },
+    {
+      "id": "GRV.7/steppers", "name": "Steppers (grilla GRV)",
+      "taxonomy": ["GRV.7", "RGG.3.3"],
+      "origin": { "tradition": "Jamaica / Reino Unido", "genre": ["reggae", "dub"], "context": "bombo en cada pulso", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 4, 8, 12] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "others"], "categories": ["electronic", "dub_reggae"],
+      "tags": ["dub", "steppers"], "bpm_range": [110, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.8/skank", "name": "Skank (grilla GRV)",
+      "taxonomy": ["GRV.8", "ACE.2.2", "RGG.6.1"],
+      "origin": { "tradition": "Jamaica (ska, reggae)", "genre": ["ska", "reggae"], "context": "acordes en contratiempo o en 2 y 4", "sources": ["meta-análisis §3"] },
+      "status": "I", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "chord", "onsets": [2, 6, 10, 14], "gate": [0.2, 0.2, 0.2, 0.2] } ],
+      "transforms_allowed": ["rotate", "density", "swing"],
+      "destinations": ["chords", "others"], "categories": ["electronic", "dub_reggae"],
+      "tags": ["reggae", "ska", "dub"], "bpm_range": [60, 160],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "none" },
+      "params": { "skank_mode": "offbeat" }
+    },
+    {
+      "id": "GRV.9/trap", "name": "Trap",
+      "taxonomy": ["GRV.9", "GRV.3"],
+      "origin": { "tradition": "Atlanta, hip hop", "genre": ["trap"], "context": "hats rápidos con tresillos y redobles", "sources": ["meta-análisis §3"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [
+        { "role": "kick", "onsets": [0, 10] },
+        { "role": "snare", "onsets": [8] },
+        { "role": "hat", "onsets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] }
+      ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["hihats", "ethnic", "others"], "categories": ["electronic"],
+      "tags": ["trap", "hiphop"], "bpm_range": [130, 160],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "trap_roll" },
+      "notes": "El bombo en [0,10] es una elección de diseño; el informe fija solo hats y caja. Los redobles de fusa y los tresillos los añade el generador de Hi-hats."
+    },
+    {
+      "id": "GRV.10/motorik", "name": "Motorik",
+      "taxonomy": ["GRV.10"],
+      "origin": { "tradition": "Alemania, krautrock", "genre": ["krautrock"], "context": "4/4 constante con mínima variación", "sources": ["meta-análisis §3"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Patrón exacto por verificar en transcripción.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 4, 8, 12] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "hihats", "others"], "categories": ["electronic"],
+      "tags": ["krautrock"], "bpm_range": [110, 160],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "none" }
+    },
+    {
+      "id": "GRV.11/breakbeat", "name": "Breakbeat / Amen",
+      "taxonomy": ["GRV.11"],
+      "origin": { "tradition": "funk, hip hop, jungle", "genre": ["breakbeat", "jungle"], "context": "breaks troceados", "sources": ["meta-análisis §3"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Transcripción del Amen break pendiente; entrada vacía para completar.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [] }, { "role": "snare", "onsets": [] } ],
+      "transforms_allowed": ["rotate", "density", "swing"],
+      "destinations": ["ethnic", "hihats", "others"], "categories": ["electronic"],
+      "tags": ["jungle", "breakbeat"], "bpm_range": [160, 180],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "GRV.12/two_step", "name": "2-step / UK garage",
+      "taxonomy": ["GRV.12", "MIC.1.1", "RGG.10.3"],
+      "origin": { "tradition": "Reino Unido", "genre": ["uk garage", "2-step"], "context": "bombo que omite tiempos con swing de semicorchea", "sources": ["meta-análisis §3"] },
+      "status": "V", "verify": true, "missing_data": true, "verify_notes": "Onsets por verificar; el reggae informa bombo en 1 y 3 en el 2-step.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "kick", "onsets": [0, 8] } ],
+      "transforms_allowed": ["density", "swing"],
+      "destinations": ["ethnic", "hihats", "others"], "categories": ["electronic"],
+      "tags": ["garage", "2-step"], "bpm_range": [130, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" },
+      "params": { "swing_level": 0.25, "ratio": 1.5 }
+    },
+    {
+      "id": "GRV.13/moroder_bass", "name": "Bajo Moroder",
+      "taxonomy": ["GRV.13", "CIC.1.1", "ACE.1.4"],
+      "origin": { "tradition": "Múnich, disco electrónica", "genre": ["disco", "synth"], "context": "I Feel Love (1977)", "sources": ["meta-análisis §3"] },
+      "status": "V", "verify": true, "verify_notes": "Contorno de octavas por verificar; la rejilla de semicorcheas sí está documentada.",
+      "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "bass", "onsets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["bassline", "arpeggio"], "categories": ["electronic"],
+      "tags": ["disco", "synth", "techno"], "bpm_range": [110, 135],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "none" },
+      "params": { "bass_style": "ostinato_continuo" }
+    },
+    {
+      "id": "GRV.14/dub_techno", "name": "Dub techno (grilla GRV)",
+      "taxonomy": ["GRV.14", "RGG.10.2", "PRO.19"],
+      "origin": { "tradition": "Berlín", "genre": ["dub techno"], "context": "stab en contratiempo con delay", "sources": ["meta-análisis §3"] },
+      "status": "I", "verify": false, "cycle_len": 16, "step_value": 0.25, "meter": "4/4",
+      "layers": [ { "role": "chord", "onsets": [2, 10], "gate": [0.15, 0.15] } ],
+      "transforms_allowed": ["rotate", "density", "swing"],
+      "destinations": ["chords"], "categories": ["electronic", "dub_techno"],
+      "tags": ["dub techno", "techno", "dub"], "bpm_range": [115, 128],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "none" },
+      "fx": { "delay_ratio": "1/8.", "feedback": 0.55 }
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "family": "sesquialtera",
+  "name": "Hemiola y sesquiáltera",
+  "notes": "Principios de SUP.3 con presets por género (CIC.8). Los patrones de bombo legüero y rasgueo por género están marcados como faltantes (§7 del informe).",
+  "patterns": [
+    {
+      "id": "SUP.3.1/hemiola_sucesiva", "name": "Hemiola sucesiva (6/8 → 3/4)",
+      "taxonomy": ["SUP.3.1", "MET.2.4"],
+      "origin": { "tradition": "Europa, Iberoamérica", "genre": ["hemiola"], "context": "compás A en 6/8 y compás B en 3/4", "sources": ["meta-análisis §2.3 SUP.3"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "beat", "onsets": [0, 3, 6, 8, 10], "velocity": [120, 95, 115, 95, 95] } ],
+      "params": { "mode": "sucesiva", "alternation_pattern": "AB" },
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "bassline", "chords", "arpeggio", "others"], "categories": ["world_cycles"],
+      "tags": ["sesquialtera", "6/8"], "bpm_range": [60, 180],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "SUP.3.2/birritmia", "name": "Birritmia simultánea (6/8 sobre 3/4)",
+      "taxonomy": ["SUP.3.2", "SUP.1.1"],
+      "origin": { "tradition": "Sudamérica", "genre": ["zamba", "chacarera", "joropo", "son jarocho"], "context": "melodía en 6/8 sobre bombo en 3/4", "sources": ["meta-análisis §2.3 SUP.3.2"] },
+      "status": "H", "verify": false, "cycle_len": 6, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "six_eight", "onsets": [0, 3] }, { "role": "three_four", "onsets": [0, 2, 4] } ],
+      "params": { "mode": "simultanea" },
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "bassline", "chords", "arpeggio", "others"], "categories": ["world_cycles"],
+      "tags": ["sesquialtera", "6/8", "folclore"], "bpm_range": [60, 180],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.8/cueca", "name": "Cueca chilena (principio)",
+      "taxonomy": ["CIC.8", "SUP.3"],
+      "origin": { "tradition": "Chile", "genre": ["cueca"], "context": "seis corcheas en 2×3 o 3×2 con fórmulas limitadas (Vega)", "sources": ["Vega, La forma de la cueca chilena", "Spencer Espinosa 2021"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Patrones de rasgueo y de bombo por verificar; se carga el principio de alternancia.",
+      "cycle_len": 12, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "beat", "onsets": [0, 3, 6, 8, 10] } ],
+      "params": { "mode": "sucesiva", "alternation_pattern": "AB" },
+      "transforms_allowed": ["density", "rotate"],
+      "destinations": ["ethnic", "chords", "bassline", "others"], "categories": ["world_cycles", "latin_percussion"],
+      "tags": ["cueca", "chile", "folclore"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 4, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.8/tonada", "name": "Tonada chilena (principio)",
+      "taxonomy": ["CIC.8", "SUP.3"],
+      "origin": { "tradition": "Chile", "genre": ["tonada"], "context": "fluctuación entre 6/8 y 3/4", "sources": ["meta-análisis §2.5 CIC.8"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Rasgueo por verificar.",
+      "cycle_len": 6, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "six_eight", "onsets": [0, 3] }, { "role": "three_four", "onsets": [0, 2, 4] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["chords", "ethnic", "others"], "categories": ["world_cycles"],
+      "tags": ["tonada", "chile", "folclore"], "bpm_range": [70, 120],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.8/zamba", "name": "Zamba (principio)",
+      "taxonomy": ["CIC.8", "SUP.3.2"],
+      "origin": { "tradition": "Argentina", "genre": ["zamba"], "context": "birritmia con bombo legüero", "sources": ["meta-análisis §2.5 CIC.8"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Patrón de bombo legüero por verificar.",
+      "cycle_len": 6, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "bombo", "onsets": [] }, { "role": "three_four", "onsets": [0, 2, 4] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others"], "categories": ["world_cycles", "latin_percussion"],
+      "tags": ["zamba", "argentina", "folclore"], "bpm_range": [60, 100],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.8/chacarera", "name": "Chacarera (principio)",
+      "taxonomy": ["CIC.8", "SUP.3.2"],
+      "origin": { "tradition": "Argentina", "genre": ["chacarera"], "context": "birritmia con bombo legüero", "sources": ["meta-análisis §2.5 CIC.8"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Patrón de bombo legüero por verificar.",
+      "cycle_len": 6, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "bombo", "onsets": [] }, { "role": "three_four", "onsets": [0, 2, 4] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others"], "categories": ["world_cycles", "latin_percussion"],
+      "tags": ["chacarera", "argentina", "folclore"], "bpm_range": [90, 140],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    },
+    {
+      "id": "CIC.8/joropo", "name": "Joropo (principio)",
+      "taxonomy": ["CIC.8", "SUP.3.2"],
+      "origin": { "tradition": "Venezuela y Colombia (llanos)", "genre": ["joropo"], "context": "birritmia con reparto por instrumento", "sources": ["meta-análisis §2.5 CIC.8"] },
+      "status": "H", "verify": true, "missing_data": true, "verify_notes": "Patrones por instrumento por verificar.",
+      "cycle_len": 6, "step_value": 0.5, "meter": "6/8",
+      "layers": [ { "role": "six_eight", "onsets": [0, 3] }, { "role": "three_four", "onsets": [0, 2, 4] } ],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "chords", "others"], "categories": ["world_cycles", "latin_percussion"],
+      "tags": ["joropo", "folclore"], "bpm_range": [150, 220],
+      "repeat_policy": { "mode": "fixed", "default_repeats": 8, "variation_on_last": "fill" }
+    }
+  ]
+}

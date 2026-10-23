@@ -1,0 +1,908 @@
+{
+ "family": "procedures",
+ "name": "Procedimientos: euclidianos, modos rítmicos, polirritmia y polimetría",
+ "patterns": [
+  {
+   "id": "PRO.1/e_3_8",
+   "name": "E(3,8)",
+   "taxonomy": [
+    "PRO.1",
+    "CIC.3.1"
+   ],
+   "origin": {
+    "tradition": "procedimiento (Toussaint)",
+    "genre": [
+     "euclidiano"
+    ],
+    "context": "rotación del tresillo",
+    "sources": [
+     "Toussaint 2005"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.25,
+   "meter": "2/4",
+   "generator": {
+    "type": "euclid",
+    "k": 3,
+    "n": 8,
+    "rotation": 0
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "reverse",
+    "complement",
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "euclidean"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "PRO.1/e_5_8",
+   "name": "E(5,8)",
+   "taxonomy": [
+    "PRO.1",
+    "CIC.3.3"
+   ],
+   "origin": {
+    "tradition": "procedimiento (Toussaint)",
+    "genre": [
+     "euclidiano"
+    ],
+    "context": "rotación del cinquillo",
+    "sources": [
+     "Toussaint 2005"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.25,
+   "meter": "2/4",
+   "generator": {
+    "type": "euclid",
+    "k": 5,
+    "n": 8,
+    "rotation": 0
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "reverse",
+    "complement",
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "euclidean"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "PRO.1/e_7_12",
+   "name": "E(7,12)",
+   "taxonomy": [
+    "PRO.1",
+    "CIC.2.1"
+   ],
+   "origin": {
+    "tradition": "procedimiento (Toussaint)",
+    "genre": [
+     "euclidiano"
+    ],
+    "context": "rotación del standard pattern",
+    "sources": [
+     "Toussaint 2005"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.333333,
+   "meter": "12/8",
+   "generator": {
+    "type": "euclid",
+    "k": 7,
+    "n": 12,
+    "rotation": 0
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "reverse",
+    "complement",
+    "density",
+    "phase"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "euclidean",
+    "12/8"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "PRO.1/e_5_16",
+   "name": "E(5,16)",
+   "taxonomy": [
+    "PRO.1",
+    "CIC.3.6"
+   ],
+   "origin": {
+    "tradition": "procedimiento (Toussaint)",
+    "genre": [
+     "euclidiano"
+    ],
+    "context": "rotación de la bossa clave",
+    "sources": [
+     "Toussaint 2005"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "generator": {
+    "type": "euclid",
+    "k": 5,
+    "n": 16,
+    "rotation": 0
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "reverse",
+    "complement",
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "euclidean"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "PRO.1/e_custom",
+   "name": "Euclidiano libre E(k,n)",
+   "taxonomy": [
+    "PRO.1",
+    "PRO.2",
+    "PRO.14"
+   ],
+   "origin": {
+    "tradition": "procedimiento (Toussaint)",
+    "genre": [
+     "euclidiano"
+    ],
+    "context": "k y n configurables con rotación",
+    "sources": [
+     "Toussaint 2005, 2013"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "generator": {
+    "type": "euclid",
+    "k": 7,
+    "n": 16,
+    "rotation": 0,
+    "editable": true
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "reverse",
+    "complement",
+    "density",
+    "swing",
+    "phase"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "hihats",
+    "ethnic",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "euclidean"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 4,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "PRO.3/modo_1",
+   "name": "Modo rítmico 1 (largo–breve)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum",
+     "conductus"
+    ],
+    "context": "pie trocaico",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 3,
+   "step_value": 0.5,
+   "meter": "3/8",
+   "grouping": [
+    2,
+    1
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      2
+     ],
+     "gate": [
+      0.95,
+      0.45
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "reverse",
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "PRO.3/modo_2",
+   "name": "Modo rítmico 2 (breve–largo)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum",
+     "conductus"
+    ],
+    "context": "pie yámbico",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 3,
+   "step_value": 0.5,
+   "meter": "3/8",
+   "grouping": [
+    1,
+    2
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      1
+     ],
+     "gate": [
+      0.45,
+      0.95
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "reverse",
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "PRO.3/modo_3",
+   "name": "Modo rítmico 3 (largo con puntillo–breve–largo)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum"
+    ],
+    "context": "pie dactílico",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 6,
+   "step_value": 0.5,
+   "meter": "6/8",
+   "grouping": [
+    3,
+    1,
+    2
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      3,
+      4
+     ],
+     "gate": [
+      1.4,
+      0.45,
+      0.95
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "reverse",
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "PRO.3/modo_4",
+   "name": "Modo rítmico 4 (breve–largo–largo con puntillo)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum"
+    ],
+    "context": "pie anapéstico",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 6,
+   "step_value": 0.5,
+   "meter": "6/8",
+   "grouping": [
+    1,
+    2,
+    3
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      1,
+      3
+     ],
+     "gate": [
+      0.45,
+      0.95,
+      1.4
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "reverse",
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "PRO.3/modo_5",
+   "name": "Modo rítmico 5 (largo–largo)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum"
+    ],
+    "context": "pie espondeo",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 6,
+   "step_value": 0.5,
+   "meter": "6/8",
+   "grouping": [
+    3,
+    3
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      3
+     ],
+     "gate": [
+      1.4,
+      1.4
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "PRO.3/modo_6",
+   "name": "Modo rítmico 6 (breve–breve–breve)",
+   "taxonomy": [
+    "PRO.3"
+   ],
+   "origin": {
+    "tradition": "Notre-Dame, s. XII–XIII",
+    "genre": [
+     "organum"
+    ],
+    "context": "pie tribraquio",
+    "sources": [
+     "Johannes de Garlandia"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 3,
+   "step_value": 0.5,
+   "meter": "3/8",
+   "grouping": [
+    1,
+    1,
+    1
+   ],
+   "layers": [
+    {
+     "role": "voice",
+     "onsets": [
+      0,
+      1,
+      2
+     ],
+     "gate": [
+      0.45,
+      0.45,
+      0.45
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "bassline",
+    "chords",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "medieval"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "none"
+   }
+  },
+  {
+   "id": "SUP.1.1/poly_3_2",
+   "name": "Polirritmia 3:2",
+   "taxonomy": [
+    "SUP.1.1",
+    "SUP.1.4"
+   ],
+   "origin": {
+    "tradition": "procedimiento",
+    "genre": [
+     "polirritmia"
+    ],
+    "context": "tres contra dos sobre 6 pulsos",
+    "sources": [
+     "meta-análisis §2.3 SUP.1"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.333333,
+   "meter": "2/4",
+   "generator": {
+    "type": "polyrhythm",
+    "ratios": [
+     3,
+     2
+    ]
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "phase"
+   ],
+   "destinations": [
+    "ethnic",
+    "arpeggio",
+    "chords",
+    "bassline",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "polyrhythm"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "SUP.1.2/poly_4_3",
+   "name": "Polirritmia 4:3",
+   "taxonomy": [
+    "SUP.1.2"
+   ],
+   "origin": {
+    "tradition": "procedimiento",
+    "genre": [
+     "polirritmia"
+    ],
+    "context": "cuatro contra tres sobre 12 pulsos",
+    "sources": [
+     "meta-análisis §2.3 SUP.1"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "step_value": 0.25,
+   "meter": "3/4",
+   "generator": {
+    "type": "polyrhythm",
+    "ratios": [
+     4,
+     3
+    ]
+   },
+   "layers": [],
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "phase"
+   ],
+   "destinations": [
+    "ethnic",
+    "arpeggio",
+    "chords",
+    "bassline",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "polyrhythm"
+   ],
+   "repeat_policy": {
+    "mode": "fixed",
+    "default_repeats": 8,
+    "variation_on_last": "fill"
+   }
+  },
+  {
+   "id": "SUP.2.1/polymeter_16_12",
+   "name": "Polimetría 16 contra 12",
+   "taxonomy": [
+    "SUP.2.1",
+    "PRO.10"
+   ],
+   "origin": {
+    "tradition": "procedimiento",
+    "genre": [
+     "polimetría"
+    ],
+    "context": "capas de 16 y 12 pasos que se realinean a los 48",
+    "sources": [
+     "meta-análisis §2.3 SUP.2"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 48,
+   "step_value": 0.25,
+   "meter": "4/4",
+   "layers": [
+    {
+     "role": "layer_a",
+     "cycle_len": 16,
+     "onsets": [
+      0,
+      4,
+      8,
+      12
+     ]
+    },
+    {
+     "role": "layer_b",
+     "cycle_len": 12,
+     "onsets": [
+      0,
+      3,
+      6,
+      8
+     ]
+    }
+   ],
+   "transforms_allowed": [
+    "rotate",
+    "density",
+    "phase"
+   ],
+   "destinations": [
+    "ethnic",
+    "arpeggio",
+    "chords",
+    "bassline",
+    "hihats",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "polymeter"
+   ],
+   "repeat_policy": {
+    "mode": "lcm",
+    "default_repeats": 1,
+    "variation_on_last": "none",
+    "max_bars": 16
+   }
+  },
+  {
+   "id": "PRO.11/clapping_shift",
+   "name": "Desplazamiento discreto (tipo Clapping Music)",
+   "taxonomy": [
+    "PRO.11",
+    "PRO.10"
+   ],
+   "origin": {
+    "tradition": "minimalismo (Reich)",
+    "genre": [
+     "proceso"
+    ],
+    "context": "una capa avanza un paso cada N repeticiones",
+    "sources": [
+     "Reich 2002"
+    ]
+   },
+   "status": "H",
+   "verify": false,
+   "cycle_len": 12,
+   "step_value": 0.25,
+   "meter": "3/4",
+   "layers": [
+    {
+     "role": "fixed",
+     "onsets": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      10
+     ]
+    },
+    {
+     "role": "shifting",
+     "onsets": [
+      0,
+      1,
+      2,
+      4,
+      5,
+      7,
+      9,
+      10
+     ]
+    }
+   ],
+   "params": {
+    "shift_every": 4,
+    "shift_layer": 1
+   },
+   "transforms_allowed": [
+    "density"
+   ],
+   "destinations": [
+    "ethnic",
+    "arpeggio",
+    "others"
+   ],
+   "categories": [
+    "procedures"
+   ],
+   "tags": [
+    "minimal",
+    "phase"
+   ],
+   "repeat_policy": {
+    "mode": "cycles",
+    "default_repeats": 12,
+    "variation_on_last": "none"
+   },
+   "notes": "Figura de 12 pasos de Clapping Music (Reich, 1972), citada como ejemplo del procedimiento."
+  }
+ ]
+}

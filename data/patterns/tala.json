@@ -1,0 +1,107 @@
+{
+  "family": "tala",
+  "name": "Tala indostánica y carnática",
+  "notes": "Los talas indostánicos marcan sam (timbre 0, acento máximo), tali (timbre 0) y khali (timbre 1), como propone el informe (CIC.4.1). Un matra = una negra por defecto; la laya cambia el tempo sin tocar la densidad (FOR.3). Los talas carnáticos se generan con tala(family, jati, gati) (CIC.4.2, §4.4).",
+  "patterns": [
+    {
+      "id": "CIC.4.1/teental", "name": "Teental (16)",
+      "taxonomy": ["CIC.4.1", "PRO.16", "MET.2.3"],
+      "origin": { "tradition": "India del norte (indostánica)", "genre": ["khayal", "kathak", "tabla solo"], "context": "el tala más usado del repertorio indostánico", "sources": ["meta-análisis §2.5 CIC.4.1"] },
+      "status": "H", "verify": false, "cycle_len": 16, "step_value": 1, "meter": "16/4", "grouping": [4, 4, 4, 4],
+      "layers": [
+        { "role": "clap", "onsets": [0, 4, 8, 12], "timbre": [0, 0, 1, 0], "velocity": [127, 100, 80, 100] },
+        { "role": "matra", "onsets": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15], "timbre": [0, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1], "velocity": [100, 60, 60, 60, 80, 60, 60, 60, 60, 60, 60, 60, 80, 60, 60, 60] }
+      ],
+      "params": { "sam": 0, "tali": [0, 4, 12], "khali": [8], "laya": "madhya" },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala"], "bpm_range": [40, 300],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.1/jhaptal", "name": "Jhaptal (10)",
+      "taxonomy": ["CIC.4.1", "MET.3.2"],
+      "origin": { "tradition": "India del norte (indostánica)", "genre": ["khayal"], "context": "tala de 10 matras en 2+3+2+3", "sources": ["meta-análisis §2.5 CIC.4.1"] },
+      "status": "H", "verify": false, "cycle_len": 10, "step_value": 1, "meter": "10/4", "grouping": [2, 3, 2, 3],
+      "layers": [ { "role": "clap", "onsets": [0, 2, 5, 7], "timbre": [0, 0, 1, 0], "velocity": [127, 100, 80, 100] } ],
+      "params": { "sam": 0, "tali": [0, 2, 7], "khali": [5] },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala"], "bpm_range": [40, 300],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.1/rupak", "name": "Rupak (7)",
+      "taxonomy": ["CIC.4.1", "MET.3.2"],
+      "origin": { "tradition": "India del norte (indostánica)", "genre": ["khayal", "bhajan"], "context": "el sam coincide con el khali", "sources": ["meta-análisis §2.5 CIC.4.1"] },
+      "status": "H", "verify": false, "cycle_len": 7, "step_value": 1, "meter": "7/4", "grouping": [3, 2, 2],
+      "layers": [ { "role": "clap", "onsets": [0, 3, 5], "timbre": [1, 0, 0], "velocity": [110, 100, 100] } ],
+      "params": { "sam": 0, "tali": [3, 5], "khali": [0] },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala"], "bpm_range": [40, 300],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.1/ektal", "name": "Ektal (12)",
+      "taxonomy": ["CIC.4.1", "MET.2.2"],
+      "origin": { "tradition": "India del norte (indostánica)", "genre": ["khayal", "dhrupad"], "context": "tala de 12 matras en seis vibhag de 2", "sources": ["meta-análisis §2.5 CIC.4.1"] },
+      "status": "H", "verify": false, "cycle_len": 12, "step_value": 1, "meter": "12/4", "grouping": [2, 2, 2, 2, 2, 2],
+      "layers": [ { "role": "clap", "onsets": [0, 2, 4, 6, 8, 10], "timbre": [0, 1, 0, 1, 0, 0], "velocity": [127, 80, 100, 80, 100, 100] } ],
+      "params": { "sam": 0, "tali": [0, 4, 8, 10], "khali": [2, 6] },
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala"], "bpm_range": [20, 300],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.2/adi_tala", "name": "Adi tala (triputa chatusra, chatusra nadai)",
+      "taxonomy": ["CIC.4.2", "MET.3.1"],
+      "origin": { "tradition": "India del sur (carnática)", "genre": ["kriti", "varnam"], "context": "el tala más común del repertorio carnático", "sources": ["meta-análisis §2.5 CIC.4.2", "karnatik.com"] },
+      "status": "H", "verify": false, "step_value": 0.25, "meter": "8/4",
+      "generator": { "type": "carnatic_tala", "family": "triputa", "jati": "chatusra", "gati": 4 },
+      "layers": [],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala", "carnatic"], "bpm_range": [40, 160],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" },
+      "notes": "32 matras (§4.4)."
+    },
+    {
+      "id": "CIC.4.2/rupaka_chatusra", "name": "Rupaka tala (chatusra jati)",
+      "taxonomy": ["CIC.4.2"],
+      "origin": { "tradition": "India del sur (carnática)", "genre": ["kriti"], "context": "drutam + laghu", "sources": ["meta-análisis §2.5 CIC.4.2"] },
+      "status": "H", "verify": false, "step_value": 0.25, "meter": "6/4",
+      "generator": { "type": "carnatic_tala", "family": "rupaka", "jati": "chatusra", "gati": 4 },
+      "layers": [],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala", "carnatic"], "bpm_range": [40, 160],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.2/khanda_matya", "name": "Khanda jati matya (48 matras)",
+      "taxonomy": ["CIC.4.2", "MET.3.2"],
+      "origin": { "tradition": "India del sur (carnática)", "genre": ["kriti"], "context": "ejemplo del informe: 12 unidades × chatusra gati", "sources": ["meta-análisis §2.5 CIC.4.2"] },
+      "status": "H", "verify": false, "step_value": 0.25, "meter": "12/4",
+      "generator": { "type": "carnatic_tala", "family": "matya", "jati": "khanda", "gati": 4 },
+      "layers": [],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala", "carnatic"], "bpm_range": [40, 160],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    },
+    {
+      "id": "CIC.4.2/misra_jhampa", "name": "Misra jati jhampa (10 unidades)",
+      "taxonomy": ["CIC.4.2", "MET.3.2"],
+      "origin": { "tradition": "India del sur (carnática)", "genre": ["kriti"], "context": "laghu de 7 + anudrutam + drutam", "sources": ["meta-análisis §2.5 CIC.4.2"] },
+      "status": "H", "verify": false, "step_value": 0.5, "meter": "10/4",
+      "generator": { "type": "carnatic_tala", "family": "jhampa", "jati": "misra", "gati": 2 },
+      "layers": [],
+      "transforms_allowed": ["density"],
+      "destinations": ["ethnic", "others", "arpeggio"], "categories": ["world_cycles"],
+      "tags": ["india", "tala", "carnatic"], "bpm_range": [40, 160],
+      "repeat_policy": { "mode": "tihai", "default_repeats": 3, "variation_on_last": "tihai" }
+    }
+  ]
+}
